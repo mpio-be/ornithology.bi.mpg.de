@@ -1,0 +1,11 @@
+
+---
+title: "Want to join us?"
+date: today
+categories: [new position]
+image: ./../main/ico.png
+---
+
+
+Are you interested in bird behavioural ecology? Do you have experience with fieldwork? Do you enjoy data analysis and writing? Do you want to avoid the “noise” and focus on the science? Consider joining us as a PhD student or post-doctoral researcher! We provide a friendly working environment in a “field station” setting away from the city hype. We are an international and multicultural team. We like to have fun and be productive. 
+Contact us at [sekretariat.kempenaers@bi.mpg.de](mailto:sekretariat.kempenaers@bi.mpg.de).

@@ -1,0 +1,76 @@
+---
+title: "The mysterious movements of the Diademed Sandpiper Plover"
+author: Luke Eberhart-Hertel
+date: "2022-11-01" # date when the project started
+categories: [ongoing]
+image: "about.webp"
+lightbox: true
+fig-cap-location: bottom
+---
+
+## Project description
+
+
+<iframe src="https://drive.google.com/file/d/1F1_YANs2z6siFitAOQpSGBCgQ_1OtnXl/preview?" 
+width="780" height="500" ></iframe> 
+
+
+The Diademed Sandpiper Plover (*Phegornis mitchellii*, hereafter "DSP") is a charismatic shorebird inhabiting the high Andes of South America. Despite the species' iconic status for ecotourists and ornithologists worldwide, surprisingly little is known about the annual movements of DSP throughout the continent. Current understanding of DSP life history suggests that breeding activities are limited to high elevation (\>2500 m) brackish or freshwater wetlands often fed by thermal springs. Although these wetlands experience freezing temperatures, high winds, and/or snowfall over the winter, no DSP have been observed at lower elevations on the Andean Pacific slope, suggesting that DSP remain sedentary at high elevation wetlands or migrate to unidentified regions of the continent. To solve this ornithological mystery, our project uses state-of-the-art animal tracking technology at two breeding sites spanning the central core and southern limit of the species' range: Lagunas de Vilama, Argentina, and the El Yeso Valley, Chile.
+
+
+::: {layout-ncol=2}
+
+![Lagunas de Vilama, Argentina, photo by Bruce Lyon](Fig1.jpg){group="group-1"}
+
+![El Yeso Valley, Chile](Fig2.jpg){group="group-1"}
+
+Study sites for tag deployments on Diademed Sandpiper-Plovers.
+:::
+
+
+DSP breed in small and geographically isolated populations where wetland habitat requirements are appropriate for nesting and tending precocial broods -- demographical traits that make the species vulnerable to local extinctions. Climate change and anthropogenic pressures from livestock overgrazing and mining likely pose serious threats to breeding populations through shifts in hydrological regimes, desiccation, and disturbance. The ca. 5 month-long breeding season of DSP suggests that individuals initiate several sequential breeding attempts, but the movements of breeding individuals between nesting attempts is unknown. Identifying connectivity among breeding populations through the use of remote tracking technology will provide useful insights about source-sink dynamics, gene-flow, and the potential for local population recovery via immigration. The DSP is classified as Near Threatened (IUCN Red List Category "C2a(i)") due to its small population size of 1500--7000 individuals, decreasing population trend, and restricted range. Most of the species' breeding range is hard to access due to limited infrastructure and demanding terrain, making ground-based monitoring of DSP near impossible. Fortunately, recent advances in nano-tagging technology now allow to safely investigate the detailed movements of small-bodied birds anywhere on the planet -- offering us the opportunity to fill in crucial knowledge gaps of the enigmatic DSP throughout the Andes.
+
+![](Fig3.jpg){group="group-1"}
+
+To track the annual movements of DSP, our project utilizes two tagging technologies on breeding individuals: i) Argos PTT satellite tags (Microwave Telemetry, Inc.) and ii) Druid GPS tags (Druid Technology Co., Ltd.). PTT satellite tags offer the major advantage of real-time online remote tracking of tagged individuals anywhere on the planet via the Argos satellite network. However, satellite telemetry offers coarse spatial resolution (ca. 250 m at best). Alternatively, GPS tags provide highly accurate data (ca. 3 m), but archive movement data until the tagged individual is within range of a solar-charged 'HUB' receiving station or smartphone with App. Both tag types weigh ~1.7 g and are solar-powered to sustain multiple years of data collection. Given that there is little known about breeding site fidelity of DSP, our use of PTT tags ensures that we collect information on large-scale movements of dispersal or migration by individuals that do not necessarily return to the deployment location. GPS tags, on the other hand, collect highly precise movement data of tagged individuals  that return to deployment locations where the 'HUB' receiving units are stationed to download archived data.
+
+
+![Termas del Plomo at the end of the El Yeso Valley](Fig4.jpg){group="group-1"}
+
+![Ultra high resolution (\~15cm<sup>2</sup> pixel) satellite image of the Termas del Plomo](Fig5.jpg){group="group-1"}
+
+
+<iframe src="https://drive.google.com/file/d/1xc31z6_AQ0hEO0toQDl5k6vHJX-BoMZm/preview?" 
+width="780" height="500" ></iframe> 
+Animated tracks of PTT-tagged DSP breeding and wintering in El Yeso Valley
+
+
+Data collection during the austral winter is still ongoing, but preliminary evidence suggests that DSP do not exhibit concerted latitudinal or elevational migrations. Rather, DSP remain sedentary around thermal springs used during the breeding season, or move to adjacent thermal springs up to 150 km away -- presumably where local carrying capacity allows for over-wintering. High resolution satellite imagery (\~15cm<sup>2</sup> pixels) confirms that the thermal springs remain snow free despite \>3 m of snow cover. Our results demonstrate that DSP are a unique 'extremophilic' shorebird whose range may be restricted, in part, by geothermal activity. Our future work aims to document the social cohesion and foraging ecology of DSP flocks residing at these winter oases.
+
+
+![Field team at the El Yeso Valley, Chile](Fig6.jpg){group="group-1"}
+
+
+## Collaborators
+
+
+:::{#ROC .card }
+![](ROC_logo.webp)
+Fernando Diaz, Cristian Pinto, Andrea Contreras-Sepúlveda, Fabrice Schmitt, Erik Sandvig [Red de Observadores de Aves y Vida Silvestre de Chile, Santiago, Chile](https://www.redobservadores.cl/)
+:::
+
+:::{#Lyon .card }
+![](https://communications.ucsc.edu/wp-content/uploads/2016/11/ucsc-seal.jpg)
+Prof. Bruce Lyon [University of California, Santa Cruz, California, USA](https://www.eeb.ucsc.edu/about/dept-directory.php?uid=belyon)
+:::
+
+:::{#Pietrek .card }
+![](https://communications.ucsc.edu/wp-content/uploads/2016/11/ucsc-seal.jpg)
+Alejandro Pietrek [University of California, Santa Cruz, California, USA](https://www.eeb.ucsc.edu/about/dept-directory.php?uid=apietrek)
+:::
+
+
+:::{#Johnson .card }
+![](https://www.fws.gov/themes/custom/fws_gov/logo.svg)
+Jim A Johnson [U.S. Fish & Wildlife Service, Alaska Migratory Birds Office](https://www.fws.gov/staff-profile/jim-johnson)
+:::

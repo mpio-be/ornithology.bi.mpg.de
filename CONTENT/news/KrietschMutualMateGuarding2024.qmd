@@ -1,0 +1,16 @@
+
+
+---
+title: "Mutual mate guarding with limited sexual conflict in a sex-role-reversed shorebird" 
+author: Krietsch et al.
+date: "2023-Dec-27" # date of publication
+categories: [new publication]
+image: "KrietschMutualMateGuarding2024.jpg"
+lightbox: true
+fig-cap-location: margin
+bibliography: ./../data/publications.bib
+---
+
+In a few species, referred to as "sex-role reversed", females compete for males, as these males provide most or all parental care. Our research, based on continuous tracking of individuals, shows that pairs remained in close proximity until the time of egg laying. Males may benefit from "mate guarding" to avoid paternity loss, while females benefit from avoiding mate take-over. Such dynamics may have led to the evolution of a brief yet strong social pair bond in red phalaropes.
+
+[@KrietschMutualMateGuarding2024]

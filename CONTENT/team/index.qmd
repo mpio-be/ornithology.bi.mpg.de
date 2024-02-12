@@ -1,0 +1,101 @@
+
+---
+pagetitle: "Team | Kempenaers Lab"
+number-sections: false
+toc-title: "Year"
+warning: false
+echo: false
+lightbox: true
+fig-cap-location: bottom
+---
+
+![January 2024, Seewiesen](Seewiesen_Kempenaers_Group_Jan_2024.jpg){group="group-kemps"}
+
+<hr>
+
+
+::: {layout-ncol=4}
+![Summer 2023](Diesen_Kempenaers_Group_2023.webp){group="group-kemps"}
+
+![Arctic field work 2023, Utqiaġvik, Alaska](Barrow_Team_2023.jpg){group="group-kemps"}
+
+![Diademed Sandpiper Plover field work 2022, Andes Mountains, El Yeso Valley, Chile](/CONTENT/projects/Diademed_Sandpiper_Plover/Fig6.jpg){group="group-kemps"}
+
+![Blue Tit field work 2020, Westerholz, Germany](Westerholz_Team_2020.jpeg){group="group-kemps"}
+
+![Arctic field work 2019, Utqiaġvik, Alaska](Barrow_Team_2019.jpg){group="group-kemps"}
+
+![Dolomites field work 2019, Italy](Italy_Team_2019.jpg){group="group-kemps"}
+
+![Blue Tit field work 2015, Westerholz, Germany](Westerholz_Team_2015.jpg){group="group-kemps"}
+
+![Arctic field work 2015, Utqiaġvik, Alaska](Barrow_Team_2012.webp){group="group-kemps"}
+
+:::
+
+
+
+
+
+```{r, ini}
+sapply(
+c('data.table', 'dplyr', 'rvest','foreach','glue', 
+    'sf', 'rnaturalearth', 'ggplot2'),
+require, character.only = TRUE, quietly = TRUE) |> invisible()
+
+
+```
+```{r, alumni, dev.args=list(bg="#363b42" ) }
+
+
+
+x = ne_countries(scale = 'large', returnclass = 'sf') |> 
+    select(name) |>
+    filter(name != 'Antarctica') |>
+    st_break_antimeridian(16)  |>
+    st_transform('+proj=robin +lon_0=16')
+
+
+a = fread("./CONTENT/data/alumni.csv")
+
+a = full_join(x, a, by = "name")
+
+ggplot() + 
+geom_sf(data = a, aes(fill = status), color = "grey80") + 
+scale_fill_manual(
+    values   = c("#527C5A", "#9A769C", "#FBFCFC"), 
+    breaks   = c("Current members", "Alumni"), 
+    na.value = "#FBFCFC", 
+    name     = NULL) + 
+theme(legend.position = "bottom",
+    panel.background = element_rect(fill='transparent'),
+    plot.background = element_rect(fill='transparent', color=NA),
+    panel.grid.major = element_blank(),
+    panel.grid.minor = element_blank(),
+    legend.background = element_rect(fill='transparent'),
+    legend.box.background = element_rect(fill='transparent'), 
+    legend.text = element_text(color = '#FBFCFC'),
+    legend.key=element_blank(),
+    panel.margin = unit(c(0, 0, 0, 0), "cm"),       
+    axis.ticks=element_blank(), 
+    axis.text.x=element_blank(), 
+    axis.text.y=element_blank(), 
+    axis.title.x=element_blank(), 
+    axis.title.y=element_blank(),
+    plot.margin = unit(c(0, 0, 0, 0), "cm")    
+)
+
+
+
+
+
+
+```
+
+
+```{r, staff list}
+d = fread("./CONTENT/data/team.csv")
+
+knitr::kable(d)
+
+```

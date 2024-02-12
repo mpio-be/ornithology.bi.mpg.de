@@ -1,0 +1,24 @@
+---
+pagetitle: "Field work stories"
+number-sections: false
+warning: false
+echo: false
+lightbox: auto
+fig-cap-location: margin
+---
+
+
+# Field work in Utqiaġvik Alaska. on the Red Phalarope.
+{{< video https://streaming-eu.mpg.de/de/institute/neuro/2023-BtS_Alaska.mp4 >}}
+
+
+# Field work in the Italian Alps, studying the Eurasian Dotterel.
+{{< video https://www.youtube.com/watch?v=1XSpmHOumN0  >}}
+
+
+# Catching and banding pectoral sandpipers in Utqiaġvik Alaska.
+{{< video https://youtu.be/e88YCOIZNeE  >}}
+
+
+# Behind the paper blog
+![  [Speed dating: individual male pectoral sandpipers sample breeding sites across the Arctic](https://communities.springernature.com/posts/speed-dating-individual-male-pectoral-sandpipers-sample-breeding-sites-across-the-arctic) ](/CONTENT/field_work/blog_speedDating.png){fig-align="center" width=80%}

@@ -1,0 +1,70 @@
+---
+pagetitle: "Publications | Kempenaers Lab"
+number-sections: false
+toc-title: "Year"
+warning: false
+echo: false
+lightbox: auto
+fig-cap-location: bottom
+---
+
+
+```{r}
+#| output: false
+sapply(
+c('data.table', 'bib2df', 'bibtex', 'wordcloud', 'tm', 'stringr', 'pluralize'),
+require, character.only = TRUE, quietly = TRUE)
+
+source("./R/utils.R")
+
+tools::bibstyle("thisBib", this.bibstyle() )
+
+
+b = bibtex::read.bib('./CONTENT/data/publications.bib')
+
+x = bib2df('./CONTENT/data/publications.bib') |> setDT()
+
+x[, bb := format(b, style = "html", .bibstyle = "thisBib") ]
+
+setorder(x, -YEAR, -DATE, JOURNAL)
+
+```
+
+<h1> Publications </h1>
+
+```{r, dev.args=list(bg="#363b42" ) }
+#| fig-cap: 'The image is a visual representation of the most frequently used words in the titles of all the publications.'
+
+set.seed(3)
+
+df = char_to_wordcloud(x$TITLE)
+
+wordcloud::wordcloud(
+  words        = df$word, 
+  freq         = df$freq, 
+  max.words    = 150, 
+  random.order = FALSE, 
+  rot.per      = 0.2, 
+  colors       = c("#9A769C", "#AC9CB0", "#C1956E", "#FBFCFC")
+  )
+
+```
+
+
+
+```{r}
+#| echo: false
+#| output: asis
+
+for(y in unique(x$YEAR) ) {
+
+cat(paste("#", y, '\n\n'))
+
+x[YEAR == y, bb] |> cat()
+
+cat('\n\n')
+
+
+}
+
+```

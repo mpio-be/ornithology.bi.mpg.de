@@ -1,0 +1,47 @@
+---
+title: "The Blue Tit study system"
+author: Peter Santema, Emmi Schlicht, Lotte Schlicht
+date: "2007-03-01" 
+categories: [completed] 
+image: "about.webp"
+bibliography: ../../data/publications.bib
+lightbox: true
+fig-cap-location: margin
+---
+
+
+Blue tits – familiar garden birds to most Europeans – typically breed as a socially monogamous pair, that is, one male and one female that raise a brood together. However, about half of the nests contain one or more offspring sired by another than the social male who is caring for the brood (extra-pair paternity). Moreover, some males are mated with two or – rarely – three females (social polygyny). Our research aims to understand the mating behaviour and its evolutionary consequences. Why do some males sire extra-pair young and others not? Why do females copulate with males other than their social mate? Why do particular males and females form a social pair? Why are some males paired with more than one female? Why do some individuals breed with the same partner in different years while others ‘divorce’?
+
+# The "Smart-box" system
+
+To address these and other questions, we studied a population of blue tits at the Westerholz forest in southern Germany between 2007 and 2022. Our study site contained 277 nestboxes, of which roughly half were occupied by breeding blue tits each spring. Each nestbox was equipped with RFID technology that recorded nestbox visits of PIT-tagged blue tits around the clock and all year round. 
+
+{{< video BlueTit_fledging.mp4 >}}
+
+Through intensive catching, almost all individuals in the population carried a tag at any given time, and by blood sampling all caught adults and nestlings we obtained almost complete information on genetic parentage. What did we learn from using this “big brother” style monitoring system? 
+
+# Extra-pair paternity
+
+Our studies revealed two important predictors of why some males sire extra-pair offspring and others do not. First, juveniles (or yearlings) are substantially less successful than ≥2 year-old adults [@schlichtAgeTrajectoriesExtra2023] , presumably because yearlings are being outcompeted by older males (Schlicht et al., in prep). Second, males that sing and are active earliest in the morning are more successful at siring extra-pair young than those that get up later [@kempenaersArtificialNightLighting2010; @schlichtStartEndDaily2023]. Additionally, extra-pair offspring are almost exclusively sired by males from an adjacent territory [@schlichtThiessenPolygonsModel2014] and often by a male with whom the female had associated during winter [@beckWinterAssociationsPredict2020], highlighting the importance of spatial proximity and familiarity.
+
+In contrast to males, the reproductive success of females is constrained by the number of eggs they can lay. It is therefore not obvious whether and how females benefit from copulations with males other than their social partner. Our work showed that extra-pair copulations can be a way to ensure the fertilisation of the clutch for females that are mated with an infertile male[@santemaExtraPairCopulations2020], and to obtain extra help in raising offspring. However, an extra-pair sire only provisioned offspring if the female received no help from her social partner and the male had no nest of its own to tend [@santemaOffspringProvisioningExtra2021]. It is likely that multiple factors contribute to extra-pair mating behaviour of females and the jury is still out on what the main drivers are for why females seek extra-pair copulations.
+
+# Polygyny
+
+A small proportion (<5%) of males that bred in our population were socially polygynous. We found that this occurred almost always because a female had lost her mate shortly before the start of breeding and settled as a secondary female with an already mated male (replacement polygyny; [@schlichtOriginOutcomeSocial2021] ). The secondary female typically received little or no help with offspring provisioning and had low reproductive success. Even males appear to benefit little from polygyny, as their nests often failed and they often lost paternity [@schlichtOriginOutcomeSocial2021].
+
+# Divorce and dispersal
+
+We discovered that many blue tits leave the study site after breeding and come back in winter or spring [@gilsenanTimingArrivalBreeding2020].  We found that individual males and females are consistent in when they return, and pairs that bred together had often arrived at the breeding site around the same time and were already associated before breeding [@gilsenanTimingArrivalBreeding2020; @beckWinterAssociationsPredict2020]. When both members of a pair returned to breed the next year, only about half bred together again. The other pairs ‘divorced’, that is, both individuals mated with a new partner. Our work revealed that divorce is not a decision to no longer breed together, as the term misleadingly suggests. Instead, pair members that returned around the same time usually remated, whereas those that arrived distantly in time tended to end up with a new partner [@gilsenanDifferenceArrivalDate2017]. After arriving at the breeding site, it may not pay to wait for the partner of the previous year to return, given a high likelihood that he or she died. In another study area, with more variation in habitat quality, we found that when a pair divorced, the female moved to a higher quality territory and produced more offspring [@valcuCausesConsequencesBreeding2008].
+
+# Other aspects of blue tit biology
+
+The continuous nest visit data allowed us to address many other aspects of blue tit behaviour. For instance, we found that shortly before and during the egg-laying period, blue tits regularly visit each other’s nestboxes and these visits predict extra-pair paternity [@schlichtMaleExtraterritorialBehavior2015]. We also investigated the female’s incubation behaviour and the male’s courtship feeding during this period [@bambiniPatternsFemaleNest2019], and examined the factors underlying variation in provisioning behaviour of parents during the nestling period (Santema et al. in prep). 
+
+In some years, we also PIT-tagged nestlings to “observe” the exact moment of nest departure (fledging). We learned that nestlings sired by extra-pair males fledge earlier [@schlichtMaleExtrapairNestlings2012] and that young blue tits do not like to fledge alone, so they adjust their fledging time to that of their siblings [@santemaExperimentalEvidenceThat2021]. 
+
+Our research has examined many other aspects of blue tit biology. Blue tits lay some of the largest clutches of any passerine (up to 15 eggs in our population). Although all eggs look the same, we used proteomics to show that egg content changes with the laying order [@valcuLifeHistoryShapes2019]. 
+
+# Resources
+
+All blue tit publications, all information about the egg proteome [@valcuLifeHistoryShapes2019] and the blue tit genome and transcriptome [@muellerCharacterizationGenomeTranscriptome2016], and the entire database are or will soon be made publicly available. 

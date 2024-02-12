@@ -1,0 +1,34 @@
+---
+title: "Banded Dotterel behavioural ecology"
+author: Luke Eberhart-Hertel
+date: "2024-10-01" # date when the project started or will start
+categories: [in preparation]
+image: "about.webp"
+lightbox: true
+fig-cap-location: margin
+---
+
+# The Behavioural ecology of the Banded Dotterel
+
+## Project description
+
+
+The configuration of the continents and the ecosystems they harbour serve as the selective landscapes on which all aspects of animal migration evolve. Northern Hemisphere breeding birds commonly exhibit inter-continental and trans-hemispheric migration, whereas no land-birds breeding in the Southern Hemisphere exhibit inter-continental migration and only a few cross the Equator. Recent evidence revealed that austral migrants have responded differently to contemporary climate change than their boreal counterparts: post-breeding migratory schedules of austral birds have gradually delayed, whereas they have advanced for boreal migrants. How do migratory strategies adapt to shifting climates – via individual plasticity or via demographic processes of geneflow and phenotypic extinction? Our investigations aim to elucidate the adaptive potential of bird migration in an austral context by focusing on the Banded Dotterel (*Charadrius bicinctus*), a shorebird with extreme phenotypic diversity in seasonal movements throughout the south-west Pacific: some individuals stay sedentary year-round at New Zealand nesting sites, while other individuals exhibit one of the longest known trans-oceanic migrations in the Southern Hemisphere. 
+
+Our endeavour bridges high-tech animal tracking instrumentation with high-throughput genomic sequencing to contrast contemporary phenotypic landscapes of migratory heterogeneity with demographic reconstructions of spatial variation in ancient migration patterns. Our team also utilizes a 50-year longitudinal dataset to quantify the survival and reproductive trade-offs of various migratory phenotypes, and forecast demographic shifts in these phenotypes under future climate scenarios. Altogether our investigation bridges crucial gaps in migration theory and broadens our understanding of phenotypic flexibility during the Anthropocene.
+
+The region inhabited by the Banded Dotterel in the south-west Pacific is a microcosm for evolutionary adaptation, unrivalled anywhere on Earth: New Zealand’s biogeography has been intimately shaped by the interactive forces of the region’s ancient volcanic activity, seismic uplift, and climate-induced glacial and sea-level dynamics. Our research aims to understand the evolutionary causes and consequences of the Banded Dotterel's variable migratory strategies in the context of shifting climates. The Banded Dotterel’s evolutionary origin story presents a textbook example of how global-scale abiotic forces have interacted to shape its contemporary distribution and variable migratory tendencies. Phylogenetics reveal that the Banded Dotterel’s founding ancestor likely dispersed to New Zealand from Australia during the mid-Miocene, an epoch distinguished by global temperatures 5°C warmer than today, low sea levels, and intense volcanic activity. The Banded Dotterel speciated during the Pliocene, during which the South Island’s Southern Alps were formed – giving rise to stark seasonal contrasts between mountain and coastal habitats. During the Last Glacial Maxima (LGM), the South Island was covered by a massive ice sheet, restricting dotterel breeding habitats to the coast and likely enforcing obligatory migration due to harsh winters. Genomic-based demographic reconstructions of flightless endemics of New Zealand, such as the Kākāpo (*Strigops habroptila*), reveal catastrophic population bottlenecks during the LGM. However, it is unclear how migrant species, like the Banded Dotterel responded to the LGM’s climatic perturbation given that this species consists of subpopulations that differ in seasonal movements. 
+
+![](Fig1.png)
+
+
+Ancient fluxes in global climate have likely given rise to the phenotypic diversity of migration seen in Banded Dotterels today whereby coastal breeders typically remain resident year-round while alpine breeders at the base of present-day glaciers migrate several thousands of kilometres overseas. This contrast in migratory behaviour is bizarre given that alpine nesting sites are only 100 km from coastal nesting sites – presenting an intriguing circumstance to examine the evolutionary trade-offs of varying seasonal movements and the mechanistic pathways for balancing selection of alternative migratory phenotypes. Present-day climate change has sparked rapid changes in avian migratory schedules. In south-east Australia (the main destination for migrant Banded Dotterels), average temperatures have increased steadily since 1960. Throughout this period, the arrival date of Banded Dotterels has increasingly delayed, whereas other species arriving from the Arctic have advanced their arrival date. The delayed arrival of Banded Dotterels poses a curious contrast to their boreal counterparts – providing a golden opportunity to identify alternate evolutionary mechanisms of phenotypic adaptation to climate change.
+
+![](Fig2.png)
+
+
+# Collaborators
+:::{#DOC .card }
+![](https://www.doc.govt.nz/themes/2014/images/DOC_logo_horizontal_RGB_White_Text_1.svg)
+[Department of Conservation, *Te Papa Atawhai* ](https://www.doc.govt.nz/)
+:::

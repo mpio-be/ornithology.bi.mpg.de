@@ -1,0 +1,191 @@
+---
+title: "Nomadism"
+author: Mihai Valcu, Eunbi Kwon, Bart Kempenaers
+date: "2012-06-01" 
+categories: [ongoing] 
+image: "about.png"
+bibliography: ../../data/publications.bib
+lightbox: true
+fig-cap-location: bottom
+---
+
+Birds are renowned for their remarkable movements spanning vast distances across the globe. Migration – the seasonal transitions between breeding and non-breeding locations – is a well-known phenomenon that fascinates both scientists and the general public. 
+
+The phenomenon of nomadism is less known and understudied. Nomadic movements can take place during any time of the year, including the breeding season. Nomadic individuals typically move without a clear pattern in terms of direction or distance. Nomadism can function to explore potential breeding sites and can be driven by environmental factors, such as nest or food availability, or by social dynamics, such as local competition and availability of mates. Some species are nomadic only during a particular stage of their life history.
+
+Our research focuses on nomadic behaviour in shorebirds, a captivating group of birds characterized by an astonishing variety in mating and parental care patterns [@bullaUnexpectedDiversitySocially2016]. Our aim is to describe and study the causes and  consequences of nomadism in species exhibiting diverse mating systems and life history strategies.
+
+Our study species breed across a wide range of environments, from the Arctic to the Tropics and from the mountain valleys of the Andes to the mudflats of New Zealand. Below is a brief account of each project. 
+
+
+# The discovery of nomadism in the Pectoral Sandpiper
+In 2017 we first described the nomadic movements of the Pectoral Sandpiper (*Calidris melanotos*) during the breeding season [@kempenaersBreedingSiteSampling2017]. You can find a detailed account of how the study unfolded [here](https://communities.springernature.com/posts/speed-dating-individual-male-pectoral-sandpipers-sample-breeding-sites-across-the-arctic). 
+
+Before our work in Utqiagvik, Alaska, virtually nothing was known about nomadism as a strategy for breeding site sampling. Our study revealed that male Pectoral Sandpipers covered thousands of kilometres in the Arctic to locate suitable breeding sites.
+
+{{< video https://youtu.be/RmfIyUBumy4 title="Breeding site sampling in Pectoral Sandpiper" >}}
+
+Pectoral Sandpiper males visited many potential breeding sites with large variation in the duration of their stay (tenure) at each site. Male tenure at the breeding site in Utqiagvik correlated positively with the number of fertile females present, and in a given season average tenure correlated with the total number of breeding females in that year, indicating that males make decisions about their movements based on local mating opportunities.
+
+Our current research now aims at understanding the causes and consequences of nomadic behaviour. To this end we first assess whether the phenomenon occurs in other shorebird species. We ask which ecological and life history traits are linked to nomadic behaviour. 
+
+![A newly banded Pectoral Sandpiper finds an unusual lookout point. Photo: Bruce Lyon.](PESA_Bart_Alaska.jpg)
+
+
+# The Ruff and the White-rumped Sandpiper
+We study __two polygynous bird species__: the Ruff (*Calidris pugnax*) and the White-rumped Sandpiper (*Calidris fuscicollis*). Although both are polygynous with female-only parental care, their mating tactics are markedly different.
+
+The Ruff, like the Pectoral Sandpiper, is sexually dimorphic with larger males that engage in intense rivalry. Ruffs come in three morphologically and behaviourally distinct, genetically determined morphs (independents, satellites and female-mimicking faeders). Each morph participates in intricate interactions within small competitive arenas known as leks [@vervoortVariationLekAttendance2020]. Conversely, in White-rumped Sandpipers males and females do not differ much in size and appearance, and males show aerial courtship displays.
+
+Our preliminary results reveal that both species also exhibit extensive movements during the breeding season. 
+
+::: {layout-ncol=2}
+
+![Lekking ruffs. Photo: Raf Vervoort.](RUFF_Norway.JPG){group="group-ruffwrsa"}
+
+![A sattelite-tagged male ruff. Photo: Monika Povel](RUFF_Toenning_DE_2015.JPG){group="group-ruffwrsa"}
+
+:::
+
+
+# The Red Phalarope and the Eurasian Dotterel
+__In sequentially polyandrous species__ females might display nomadic tendencies during the breeding season if this increases their mating opportunities. In contrast to polygynous males, their movements are likely limited because of the time needed to secure a care-giving male and lay eggs.
+
+We investigate the breeding season movements of two polyandrous species: the Red Phalarope (*Phalaropus fulicarius*) and the Eurasian Dotterel (*Eudromias morinellus*). In both species, females compete to obtain a male and typically leave soon after they complete a 3-4 egg clutch. However, their post-departure behaviour and the scale of their movements remain largely unexplored.
+
+::: {layout-ncol=2}
+
+![Female Red Phalarope in Utqiagvik (Barrow), Alaska. Photo: Kaspar Delhey.](REPH_female_Alaska.jpg){group="group-repheudo"}
+
+![Male Red Phalarope in Utqiagvik (Barrow), Alaska. Photo: Bruce Lyon.](REPH_male_Alaska.jpg){group="group-repheudo"}
+
+![Dotterel caught and satellite tagged during fall migration in the Dolomite Mountains. Photo: Luke Eberhart-Hertel.](EUDO_Italy_2019.jpg){group="group-repheudo"}
+
+![Female dotterel in breeding plumage. Photo: Terje Lislevand.](EUDO_Norway.jpg){group="group-repheudo"}
+
+
+:::
+
+
+# The Long-billed Dowitcher
+Most __socially monogamous shorebirds__ return to the same breeding site year after year. The Long-billed Dowitcher (*Limnodromus scolopaceus*) is a remarkale exception. Both pair members share incubation duties, but females typically leave around hatching and pairs never reunite. The species shows extremely low breeding site fidelity. Thus, we used satellite telemetry to assess their breeding site sampling and the distance between potential nesting sites across years [@kwonLackBreedingSite2023].
+
+::: {layout-ncol=2}
+
+![Long-billed Dowitcher with satellite tag in Utqiagvik (Barrow). Alaska, Photo: Bruce Lyon](LBDO_Alaska_1.jpg){group="group-lbdo"}
+
+![Long-billed Dowitcher in Utqiagvik (Barrow), Alaska. Photo: Bruce Lyon](LBDO_Alaska_2.jpg){group="group-lbdo"}
+
+:::
+
+# The Bronze-winged Courser
+Exploring multiple breeding sites to increase mating opportunities is not the only reason for nomadism. Some species breed in particular habitats and undertake nomadic movements to find optimal breeding conditions, because the presence of suitable habitat varies widely over time and in space. For these species, nomadism is a response to ecological unpredictability.
+
+The Bronze-winged Courser (*Rhinoptilus chalcopterus*) is a socially monogamous species found in the African Miombo savannas and shrublands. Notably, they prefer breeding in recently burned patches of land [@lakeshoreOrnithologyKempenaers6].
+We are studying the movements of Bronze-winged Coursers during the breeding season. Our aim is to describe the intricacies of their nomadic lifestyle, and to decipher some of its mysteries, such as how do they find and use burned areas.
+
+::: {layout-ncol=2}
+
+![A Bronze-winged Courser in its typical breeding habitat. Photo: Jinggang Zhang](BWCO_Zambia_2023_1.JPG){group="group-bwco"}
+
+![A Bronze-winged Courser nesting on a recently burned area. Photo: Jinggang Zhang](BWCO_Zambia_2023_2.JPG){group="group-bwco"}
+
+:::
+
+# The Bar-tailed Godwit
+Bar-tailed Godwits (*Limosa lapponica*) are fascinating birds best known for their epic non-stop migration from Alaska to New Zeeland. We study a less known aspect of their behaviour during the non-breeding season in New Zealand that is just as intriguing. Adult Bar-tailed Godwits show high fidelity to the area where they feed and roost, and return to the same location year after year. In contrast, juveniles that arrive to New Zealand after their first long flight from Alaska exhibit remarkable nomadic behaviour. Most individuals visit mudflats across a large part of New Zealand before finally settling at a site for the rest of their life. 
+We hypothesize that the exploratory behaviour of young Bar-tailed Godwits  allows them to select their preferred site, possibly influenced by food availability and  the social context. For now, the causes and consequences of this behaviour remain enigmatic.
+
+![Spring departure of bar-tailed godwits from Foxton, New Zealand. Photo: Jesse Conklin.](BTGO_NZ_1.jpg){group="group-btgo"}
+
+
+::: {layout-ncol=2}
+
+![Juvenile bar-tailed godwit with satellite tag caught at Foxton, New Zealand. Photo: Cleland Wallace](BTGO_NZ_3.JPG){group="group-btgo"}
+
+![Tagging bar-tailed godwits at Motueka Sandspit, New Zealand: Photo: Michelle Bradshaw](BTGO_NZ_2.jpg){group="group-btgo"}
+
+:::
+
+
+
+
+# Further projects
+Nomadism driven by the exploration of potential breeding sites, or the lack thereof, can create differences in the opportunity for local adaptation among species with different mating systems [@kempenaersBreedingSiteSampling2017; @kwonBreedingSiteFidelity2022] which may lead to different strategies of parental investment. We are currently testing this prediction [across shorebirds](/CONTENT/projects/Macroecology/#parental-investment).
+
+
+
+
+# Collaborators
+
+
+:::{#Lanctot .card }
+![](https://udelar.edu.uy/portal/wp-content/uploads/sites/48/2018/11/cropped-logo_udelar.png)
+Dra. Matilde Alfaro  [Department of Ecology and Evolution, Vertebrate Zoology Division, School of Sciences, UDELAR, Uruguay](https://udelar.edu.uy/)
+:::
+
+
+:::{#Lanctot .card }
+![](https://www.fws.gov/themes/custom/fws_gov/logo.svg)
+Dr. Rick Lanctot  [U.S. Fish & Wildlife Service, Alaska Migratory Birds Office](https://www.fws.gov/staff-profile/rick-lanctot)
+:::
+
+:::{#Piersma .card }
+![](https://www.nioz.nl/application/files/1216/8924/5333/NIOZ-logo_witte_randi-2023.svg)
+Prof. Dr. Theunis Piersma [Royal Netherlands Institute for Sea Research](https://www.nioz.nl/en/about/organisation/staff/theunis-piersma)
+:::
+
+:::{#Spottiswoode .card}
+![](https://africanhoneyguides.com/wp-content/uploads/2020/02/honeyguide-logo-400.png)
+Prof. Claire Spottiswoode [Department of Zoology University of Cambridge, UK and FitzPatrick Institute of African Ornithology University of Cape Town, SA](https://africanhoneyguides.com/the-team/prof-claire-spottiswoode/)
+:::
+
+:::{#Howey .card}
+![](https://www.microwavetelemetry.com/images/MTLogo.png)
+Dr. Paul W. Howey [Microwawe Telemetry, Inc., USA](https://www.microwavetelemetry.com/)
+:::
+
+:::{#Batley .card}
+![](https://evolves.massey.ac.nz/Images/MasseyLogo_Transparent.gif)
+Prof. Phil Batley [ Massey University, NZ](https://www.massey.ac.nz/massey/expertise/profile.cfm?stref=178930)
+:::
+
+:::{#Conklin .card}
+Dr. Jesse Conklin [ University of Groningen, NL](https://research.rug.nl/en/persons/jesse-conklin)
+:::
+
+:::{#AWSG .card}
+![](https://awsg.org.au/wp-content/themes/AWSG/img/logo.png)
+The Australasian Wader Studies Group [ AWSG, AU](https://awsg.org.au/)
+:::
+
+:::{#Lislevand .card}
+![](https://www.uib.no/sites/all/themes/uib/uib_w3/logo.svg)
+Prof. Terje Lislevand [University Of Bergen](https://www.uib.no/en/persons/Terje.Lislevand)
+:::
+
+
+:::{#Azzolini .card}
+![](https://www.ebnitalia.it/pagine/sfondi/LogoTop.jpg)
+Maurizio Azzolini [EBN Italia/Dolomiti BirdWatching](https://www.ebnitalia.it/)
+:::
+
+:::{#Basso .card}
+![](https://www.isprambiente.gov.it/images/progetti/logo-ispra.jpg/@@images/6b90f5fa-f151-4945-912c-5a355e9445cd.jpeg)
+Marco Basso,  associated to [Institute for Environmental Protection and Research](https://www.isprambiente.gov.it)
+:::
+
+:::{#Pedrini .card}
+Paolo Pedrini [MUSE - Museo delle Scienze, Trento](https://www.muse.it/)
+:::
+
+:::{#Serra .card}
+![](https://www.isprambiente.gov.it/images/progetti/logo-ispra.jpg/@@images/6b90f5fa-f151-4945-912c-5a355e9445cd.jpeg)
+Dr. Lorenzo Serra [Institute for Environmental Protection and Research](https://www.isprambiente.gov.it)
+:::
+
+:::{#Volcan .card}
+![](https://www.parcopan.org/wp-content/uploads/2019/04/logo_parcopan_fondo_verde.png)
+Gilberto Volcan [Parco Paneveggio – Pale di San Martino](https://www.parcopan.org/)
+:::
+ 
