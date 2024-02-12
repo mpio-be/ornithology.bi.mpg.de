@@ -1,0 +1,10 @@
+
+---
+listing:
+  contents: 
+    - "CONTENT/projects/*/index.qmd"
+  categories: true
+  sort: "date desc"
+  sort-ui: true
+  filter-ui: true  
+---

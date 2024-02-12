@@ -1,0 +1,21 @@
+project:
+  type: website
+  execute-dir: project
+  render:
+  - "*.qmd"
+  - "!CONTENT/projects/*/about.md"
+  - "!readmme.md"
+  resources: 
+    - CONTENT/data
+    - CONTENT/main
+    - CONTENT/projects/*/about.md
+    - CONTENT/projects/*/about.webp
+    - js
+    - style
+editor:
+  -render-on-save: true
+metadata-files:
+  - _website.yml
+  - _style.yml
+link-external-icon: true
+link-external-newwindow: true

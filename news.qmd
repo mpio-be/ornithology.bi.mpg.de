@@ -1,0 +1,9 @@
+---
+listing:
+  contents: 
+    - "CONTENT/news/*.qmd"
+  categories: true
+  sort: "date desc"
+  sort-ui: true
+  filter-ui: false  
+---

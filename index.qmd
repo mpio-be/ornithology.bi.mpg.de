@@ -1,0 +1,159 @@
+---
+page-layout: custom
+lightbox: false
+---
+
+<!-- Scripts-->
+```{=HTML} 
+
+<script src="./js/jquery-3.7.1.min.js"></script>
+<script src="./js/d3js-dvs_3.0.1.js"></script>
+<script src="./js/index-array-by_1.4.1.js"></script>
+
+
+<script src="./js/globe.gl-2.32.1.min.js"></script>
+<script type="module" src="./js/my_globe.gl.js">  </script>
+
+<!-- bootbox modals for Globe -->
+<script src="./js/bootbox-6.0.0.js"></script>
+<script src="./js/marked-11.1.0.min.js"></script>
+
+```
+
+
+<!-- content: globe, dude, text -->
+```{=HTML} 
+
+
+<div class="container" >
+
+
+<div id="intro_start" class="intro w-75"> </div>
+
+    <div class="d-flex align-items-end" >
+
+    <div id="dude" class="flex-shrink-0 d-none d-lg-block " data-toggle="tooltip"  data-bs-html="true"
+      title= "Click a circle on the Globe to discover more about our field studies. <br> 
+      Go to <strong><em>Projects/Macroecology</em></strong> to learn more about the map.">
+      <img src="./CONTENT/main/dude.png"  class="img-fluid img-right"> 
+    <hr>
+    </div>
+
+    <div id= "Earth" class="flex-shrink-0" > </div>
+
+    </div>
+
+
+
+
+
+</div>
+
+```
+
+
+
+<!-- before body ends-->
+```{=HTML} 
+
+
+<script>
+// init bs tooltip
+$(document).ready(function(){
+  $('[data-toggle="tooltip"]').tooltip();   
+});
+</script>
+
+
+<script>
+// text
+$(document).ready(function(){
+    $.get("/CONTENT/main/intro_start.md", function (txt) {
+
+      marked.parse(txt)
+
+    })
+
+});
+
+$.get('/CONTENT/main/intro_start.md', function(txt) {
+    const htmlContent = marked.parse(txt);
+    $('#intro_start').html(htmlContent);
+});
+
+
+</script>
+
+<!-- <script>
+// let the dude talk
+$(document).ready(function() {
+
+    setTimeout(function() {
+      $("#dude").tooltip('show');
+    }, 2000); 
+    setTimeout(function() {
+    
+    $('#dude').tooltip('hide');
+    }, 8000);
+
+  });
+
+</script> -->
+
+
+<script>
+// intro text as modal
+$(document).on('click', '.show-read-more', function(e) {
+
+  $.get("/CONTENT/main/intro.md", function (intro_text) {
+
+    bootbox.alert({
+      animate       : false,
+      scrollable    : true,
+      size          : "xl",
+      centerVertical: true,
+      message       : marked.parse(intro_text),
+      backdrop      : true,
+      closeButton   : true, 
+      
+      onShow : function(e) {
+        $('#dude').tooltip('hide');
+        $(this).find('.modal-footer').remove();
+        $('#intro_start').hide();
+        $('#dude').css('opacity', '0.05');
+        $('#Earth').css('opacity', '0.05');
+      }, 
+
+      onHide : function(e) {
+        $('#intro_start').show();
+        $('#dude').css('opacity', '1');
+        $('#Earth').css('opacity', '1');
+      }, 
+
+
+
+
+    });
+  });
+})
+
+</script>
+
+<!-- <script>
+
+$(document).ready(function(){
+    $(".nav-footer").remove();
+});
+
+</script>   -->
+
+
+
+
+
+
+
+
+
+
+```

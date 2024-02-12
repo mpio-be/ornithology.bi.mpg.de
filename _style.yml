@@ -1,0 +1,17 @@
+format:
+  html:
+    email-obfuscation: javascript    
+    theme: 
+      - darkly
+      - ./style/styles.scss
+    toc: true
+    number-sections: true
+    code-link: true
+    link-external-newwindow: true 
+    citations-hover: true
+    footnotes-hover: true
+    smooth-scroll: true
+    grid:  
+      margin-width: 300px
+      body-width: 850px
+      gutter-width: 1em

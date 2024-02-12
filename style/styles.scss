@@ -1,0 +1,80 @@
+/* A single text file that contains valid Scss Special comments are used to denote regions of functions,
+defaults, mixins,and rules (region decorators). 
+https: //quarto.org/docs/output-formats/html-themes-more.html
+*/
+
+/*-- scss:defaults --*/
+
+$blue                  : #28303a !default;
+$green                 : #A6CF98 !default;
+$body-bg               : #363b42 !default;
+$tooltip-opacity       : 0.5;
+$modal-backdrop-bg     : $body-bg;
+$modal-backdrop-opacity: 0;
+
+
+/*-- scss:rules --*/
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mali&display=swap');
+
+body {
+  font-family: 'Alegreya Sans', sans-serif;
+  overflow-x: hidden
+}
+
+// .navbar-logo {
+//   width: 50px  !important;         
+//   height: 50px  !important;
+//   object-fit: contain  !important;           
+//   justify-content: center  !important;
+// }
+
+.navbar {
+  background: linear-gradient(to bottom, rgba(40, 48, 58, 0.9), rgba(54, 59, 66, 0.6));
+}
+
+.card img{
+  width: 60px;           
+  height: 60px;
+  object-fit: contain;           
+  justify-content: center;
+}
+.card p{
+  font-size: 1.2em
+}
+.modal-content {
+  background-color: rgba(40, 48, 58, 1); 
+  z-index: 10;
+}
+// index.html
+#intro_start {
+  column-count: 1; 
+  font-family:Mali;
+}
+.intro{
+  font-size: calc(1.25rem + 0.25vw) !important;
+  overflow-y: auto; 
+  position: relative;
+  z-index: 2;
+  margin-bottom:-15%;
+  text-wrap: balance;
+  // text-indent: 30px;
+  column-count: 2;
+  column-width: 500px;
+} 
+
+#Earth{
+  position: relative;
+  z-index: 1;
+  cursor: move;
+}
+#dude{
+  position: relative;
+  z-index: 2;
+  margin-right: -50%; 
+  transform: translateY(-20%);
+
+}
+#dude:hover {
+  cursor: help;
+}
