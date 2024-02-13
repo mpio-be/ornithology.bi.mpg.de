@@ -1,7 +1,7 @@
 ---
 title: "The zebra finch study system"
 author: Wolfgang Forstmeier
-date: "2004-01-01" # date when the project started
+date: "2004-11-01" # date when the project started
 categories: [ongoing] 
 image: "about.webp"
 bibliography: ../../data/publications.bib
