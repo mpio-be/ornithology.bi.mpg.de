@@ -4,6 +4,7 @@ char_to_wordcloud <- function(x) {
 
   d = 
   x |>
+  na.omit() |>
   singularize() |>
   str_to_lower() |>
   str_remove_all( "emph") |>
