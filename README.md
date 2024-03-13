@@ -1,7 +1,6 @@
 
 # Department of Ornithology
 
-
 This repository holds the source for the public website of the Department of Ornithology in Seewiesen, accessible at [ornithology.bi.mpg.de](http://ornithology.bi.mpg.de) . 
 
 ## Credits
