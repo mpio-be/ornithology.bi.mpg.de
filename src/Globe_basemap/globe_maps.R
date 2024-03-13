@@ -13,8 +13,9 @@
 
   source("./src/_src_settings.R")
 
+# DATA: tracks
 
-# DATA
+# DATA: base layers
   # layers
   land   = ne_download(scale = 10, type = "land", category = "physical", returnclass = 'sf')   |> st_geometry()
   oceans = ne_download(scale = 10, type = "ocean", category = "physical", returnclass = 'sf')  |> st_geometry()
