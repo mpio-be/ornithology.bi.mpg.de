@@ -5,11 +5,12 @@ date: "2023-Nov-22" # date of publication
 categories: [new publication]
 image: "LotteDawnChorus2024.jpg"
 lightbox: true
-fig-cap-location: margin
+fig-cap-location: bottom
 bibliography: ./../data/publications.bib
 ---
 
 Many bird species, including blue tits, produce a striking outburst of song around dawn. Many hypotheses have been proposed to explain the dawn chorus, but none of them seems generally applicable. We propose that the dawn chorus can arise simply if (1) males start their activity earlier in the morning than females and (2) males sing more when their mate is absent. In support of this idea, we show that male blue tits increased their song output not only when their female was still in the roost at dawn, but also when she was in the nestbox during the day. Information from the literature suggests that the “absent mate” hypothesis may apply to many species. As highlighted by Diego Gil in a [commentary about our paper](https://doi.org/10.1038/d41586-024-00264-9), the “absent mate” hypothesis offers a mechanistic explanation for the existence of the dawn (and dusk) chorus, but leaves the question open why males sing more when their mate is absent. Future studies are needed to evaluate whether the hypothesis holds for other species.
 
 [@schlichtDawnDuskChorus2023]
+
 ![Photo by Anne Cillard](LotteDawnChorus2024.jpg)
