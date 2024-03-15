@@ -1,7 +1,7 @@
 ---
 title: "A dawn and dusk chorus will emerge if males sing in the absence of their mate" 
 author: Schlicht et al.
-date: "2023-Nov-22" # date of publication
+date: "2024-Feb-06" 
 categories: [new publication]
 image: "LotteDawnChorus2024.jpg"
 lightbox: true
