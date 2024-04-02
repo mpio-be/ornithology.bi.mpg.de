@@ -1,6 +1,6 @@
 ---
 title: "Ornithology from the Lakeshore: Life’s Mass Murderers"
-author: Bart Kempenaers
+author: Carol Gilsenan
 date: "2024-Apr-02"
 categories: [new publication]
 image: ./../main/ico.png
