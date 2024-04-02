@@ -1,0 +1,9 @@
+---
+title: "Ornithology from the Lakeshore: Life’s Mass Murderers"
+author: Bart Kempenaers
+date: "2024-Apr-02"
+categories: [new publication]
+image: ./../main/ico.png
+---
+
+Bart Kempenaer’s latest editorial for the Dutch ornithological journal Ardea entitled “Life’s Mass Murderers” can be downloaded [here](https://bioone.org/journalArticle/Download?urlid=10.5253%2Farde.v104i2.a0).
