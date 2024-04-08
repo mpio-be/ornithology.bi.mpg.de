@@ -6,4 +6,4 @@ categories: [new publication]
 image: ./../main/ico.png
 ---
 
-Bart Kempenaer’s latest editorial for the Dutch ornithological journal Ardea entitled “Life’s Mass Murderers” can be downloaded [here](https://bioone.org/journalArticle/Download?urlid=10.5253%2Farde.v104i2.a0).
+Bart Kempenaer’s latest editorial for the Dutch ornithological journal Ardea entitled “Life’s Mass Murderers” can be read now.
