@@ -1,1 +1,15 @@
 
+---
+title: "Video evidence that cuckoos farm their hosts by ejecting nestlings" 
+author: Zhang et al.
+date: "2024-Apr-08" # date of publication
+categories: [new publication]
+image: "JinggangFarmingBehaviour2024.jpg"
+lightbox: true
+fig-cap-location: margin
+bibliography: ./../data/publications.bib
+---
+
+A video recording of a Daurian redstart nest from a population in NE China showed that a common cuckoo ejected all the host nestlings. When the redstart then produced a new nest, it was parasitized by the cuckoo. These observations provide circumstantial evidence for “farming behaviour” by a brood parasite.
+
+[@JinggangFarmingBehaviour2024]
