@@ -21,7 +21,7 @@ website:
         href: index.qmd
 
       - text: "<strong><i class='fas fa-handshake' style='color: #EC6127;'></i> Join Us!</strong>"
-        href: CONTENT/news/open_position.qmd
+        href: CONTENT/positions/open_position.qmd
 
       - text: "{{< fa solid globe >}} Projects"
         href: projects.qmd
