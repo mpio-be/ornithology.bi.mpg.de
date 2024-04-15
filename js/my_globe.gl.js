@@ -1,8 +1,7 @@
 // https://threejs.org/docs/#examples/en/controls/OrbitControls
 // https://github.com/vasturiano/globe.gl/issues/8
 
-const globe_path       = "./CONTENT/main/lightness.png";
-// const dem_path         = "./CONTENT/main/earth_topology.png";
+const globe_path       = "./CONTENT/main/basemap.png";
 const sites_path       = "./CONTENT/data/study_sites.csv";
 const map_center       = { lat: 40, lng: -65, altitude: 2.5 };
 const study_sites      = ([site,species,lat,lng,url,size,color]) => ({ site,species,lat,lng,url,size,color});
