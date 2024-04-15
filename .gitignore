@@ -17,11 +17,6 @@ node_modules/
 _extensions/
 _site/
 
-# this project
-_src_settings.R
-zzz_NOTES.txt
-zzz_install_&_deploy.sh
 
 # large files
 BlueTit_fledging.mp4
-lightness.sqlite
