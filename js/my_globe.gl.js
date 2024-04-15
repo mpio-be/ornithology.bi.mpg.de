@@ -2,9 +2,8 @@
 // https://github.com/vasturiano/globe.gl/issues/8
 
 const globe_path       = "./CONTENT/main/lightness.png";
-const dem_path         = "./CONTENT/main/earth-topology.png";
+// const dem_path         = "./CONTENT/main/earth_topology.png";
 const sites_path       = "./CONTENT/data/study_sites.csv";
-const sites_poly_path  = "./CONTENT/data/study_sites.geojson";
 const map_center       = { lat: 40, lng: -65, altitude: 2.5 };
 const study_sites      = ([site,species,lat,lng,url,size,color]) => ({ site,species,lat,lng,url,size,color});
 const events           = ["click", "touchstart", "mousedown", "wheel"];
@@ -15,7 +14,7 @@ const world = Globe()
   (document.getElementById('Earth'))
   
   .globeImageUrl(globe_path)
-  .bumpImageUrl(dem_path)
+  // .bumpImageUrl(dem_path)
   .backgroundColor("#FFFFFF00")
   //.backgroundImageUrl('./CONTENT/main/sky.png')
 
