@@ -7,7 +7,7 @@ const map_center       = { lat: 40, lng: -65, altitude: 2.5 };
 const study_sites      = ([site,species,lat,lng,url,size,color]) => ({ site,species,lat,lng,url,size,color});
 const events           = ["click", "touchstart", "mousedown", "wheel"];
 const ringsCols        = ["#B38CB4","#B7918C", "#C5A48A"];
-const dotColor         = '#05668D';
+const dotColor         = '#e66119';
 
 const world = Globe()
   (document.getElementById('Earth'))

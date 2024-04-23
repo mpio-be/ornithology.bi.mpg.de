@@ -1,7 +1,7 @@
 ---
 listing:
   contents: 
-    - "CONTENT/news/*.qmd"
+    - "CONTENT/news/*/*.qmd"
   categories: true
   sort: "date desc"
   sort-ui: true

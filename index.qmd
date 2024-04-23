@@ -6,51 +6,49 @@ lightbox: false
 <!-- Scripts-->
 ```{=HTML} 
 
-<script src="./js/jquery-3.7.1.min.js"></script>
-<script src="./js/d3js-dvs_3.0.1.js"></script>
-<script src="./js/index-array-by_1.4.1.js"></script>
+<script src="./js/jquery.js"></script>
+<script src="./js/d3js-dvs.js"></script>
+<script src="./js/index-array-by.js"></script>
 
 
-<script src="./js/globe.gl-2.32.1.min.js"></script>
+<script src="./js/globe.gl.js"></script>
 <script type="module" src="./js/my_globe.gl.js">  </script>
 
 <!-- bootbox modals for Globe -->
-<script src="./js/bootbox-6.0.0.js"></script>
-<script src="./js/marked-11.1.0.min.js"></script>
-
+<script src="./js/bootbox.js"></script>
+<script src="./js/marked.js"></script>
 ```
 
 
 <!-- content: globe, dude, text -->
 ```{=HTML} 
 
-
 <div class="container" >
-
 
 <div id="intro_start" class="intro w-75"> </div>
 
-    <div class="d-flex align-items-end" >
+<div class="d-flex align-items-end" >
 
-    <div id="dude" class="flex-shrink-0 d-none d-lg-block " data-toggle="tooltip"  data-bs-html="true"
-      title= "Click a circle on the Globe to discover more about our field studies. <br> 
-      Go to <strong><em>Projects/Macroecology</em></strong> to learn more about the map.">
-      <img src="./CONTENT/main/dude.png"  class="img-fluid img-right"> 
-    <hr>
-    </div>
+<div id="dude" class="flex-shrink-0 d-none d-lg-block " data-toggle="tooltip"  data-bs-html="true"
+title= "
+Explore our field studies by clicking on a circle on the Globe! 
+Points are locations of {{< var N_birds >}} individuals from {{< var N_species >}} shorebird species we've tracked. 
+Visit <strong><em>Projects/Nomadism</em></strong> to learn more.
+"
+>
+<img src="./CONTENT/main/dude.png"  class="img-fluid img-right"> 
+<hr>
+</div>
 
-    <div id= "Earth" class="flex-shrink-0" > </div>
+<div id= "Earth" class="flex-shrink-0" > </div>
 
-    </div>
-
-
-
+</div>
 
 
 </div>
 
-```
 
+```
 
 
 <!-- before body ends-->

@@ -20,8 +20,8 @@ website:
       - text: "{{< fa house-user >}} Home"
         href: index.qmd
 
-      - text: "<strong><i class='fas fa-handshake' style='color: #EC6127;'></i> Join Us!</strong>"
-        href: CONTENT/positions/open_position.qmd
+      - text: "<strong><i class='fas fa-rss' style='color: #EC6127;'></i> News </strong>"
+        href: news.qmd
 
       - text: "{{< fa solid globe >}} Projects"
         href: projects.qmd
@@ -35,8 +35,9 @@ website:
       - text: "{{< fa people-group >}} Team"
         href: CONTENT/team/index.qmd
 
-      - text: "{{< fa rss >}} News"
-        href: news.qmd
+      - text: "Join Us!"
+        href: CONTENT/positions/open_position.qmd
+
 
       - text: "{{< fa brands github>}} "
         href: https://github.com/mpio-be/
