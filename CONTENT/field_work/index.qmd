@@ -21,4 +21,4 @@ fig-cap-location: margin
 
 
 # Behind the paper blog
-![  [Speed dating: individual male pectoral sandpipers sample breeding sites across the Arctic](https://communities.springernature.com/posts/speed-dating-individual-male-pectoral-sandpipers-sample-breeding-sites-across-the-arctic) ](/CONTENT/field_work/blog_speedDating.png){fig-align="center" width=80%}
+![  [Speed dating: individual male pectoral sandpipers sample breeding sites across the Arctic](https://communities.springernature.com/posts/speed-dating-individual-male-pectoral-sandpipers-sample-breeding-sites-across-the-arctic) ](/CONTENT/field_work/blog_speedDating.webp){fig-align="center" width=80%}

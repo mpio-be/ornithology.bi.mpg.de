@@ -29,7 +29,7 @@ Pectoral Sandpiper males visited many potential breeding sites with large variat
 
 Our current research now aims at understanding the causes and consequences of nomadic behaviour. To this end we first assess whether the phenomenon occurs in other shorebird species. We ask which ecological and life history traits are linked to nomadic behaviour. 
 
-![A newly banded Pectoral Sandpiper finds an unusual lookout point. Photo: Bruce Lyon.](PESA_Bart_Alaska.jpg)
+![A newly banded Pectoral Sandpiper finds an unusual lookout point. Photo: Bruce Lyon.](PESA_Bart_Alaska.webp)
 
 
 # The Ruff and the White-rumped Sandpiper
@@ -41,9 +41,9 @@ Our preliminary results reveal that both species also exhibit extensive movement
 
 ::: {layout-ncol=2}
 
-![Lekking ruffs. Photo: Raf Vervoort.](RUFF_Norway.JPG){group="group-ruffwrsa"}
+![Lekking ruffs. Photo: Raf Vervoort.](RUFF_Norway.webp){group="group-ruffwrsa"}
 
-![A sattelite-tagged male ruff. Photo: Monika Povel](RUFF_Toenning_DE_2015.JPG){group="group-ruffwrsa"}
+![A sattelite-tagged male ruff. Photo: Monika Povel](RUFF_Toenning_DE_2015.webp){group="group-ruffwrsa"}
 
 :::
 
@@ -55,13 +55,13 @@ We investigate the breeding season movements of two polyandrous species: the Red
 
 ::: {layout-ncol=2}
 
-![Female Red Phalarope in Utqiagvik (Barrow), Alaska. Photo: Kaspar Delhey.](REPH_female_Alaska.jpg){group="group-repheudo"}
+![Female Red Phalarope in Utqiagvik (Barrow), Alaska. Photo: Kaspar Delhey.](REPH_female_Alaska.webp){group="group-repheudo"}
 
-![Male Red Phalarope in Utqiagvik (Barrow), Alaska. Photo: Bruce Lyon.](REPH_male_Alaska.jpg){group="group-repheudo"}
+![Male Red Phalarope in Utqiagvik (Barrow), Alaska. Photo: Bruce Lyon.](REPH_male_Alaska.webp){group="group-repheudo"}
 
-![Dotterel caught and satellite tagged during fall migration in the Dolomite Mountains. Photo: Luke Eberhart-Hertel.](EUDO_Italy_2019.jpg){group="group-repheudo"}
+![Dotterel caught and satellite tagged during fall migration in the Dolomite Mountains. Photo: Luke Eberhart-Hertel.](EUDO_Italy_2019.webp){group="group-repheudo"}
 
-![Female dotterel in breeding plumage. Photo: Terje Lislevand.](EUDO_Norway.jpg){group="group-repheudo"}
+![Female dotterel in breeding plumage. Photo: Terje Lislevand.](EUDO_Norway.webp){group="group-repheudo"}
 
 
 :::
@@ -72,9 +72,9 @@ Most __socially monogamous shorebirds__ return to the same breeding site year af
 
 ::: {layout-ncol=2}
 
-![Long-billed Dowitcher with satellite tag in Utqiagvik (Barrow). Alaska, Photo: Bruce Lyon](LBDO_Alaska_1.jpg){group="group-lbdo"}
+![Long-billed Dowitcher with satellite tag in Utqiagvik (Barrow). Alaska, Photo: Bruce Lyon](LBDO_Alaska_1.webp){group="group-lbdo"}
 
-![Long-billed Dowitcher in Utqiagvik (Barrow), Alaska. Photo: Bruce Lyon](LBDO_Alaska_2.jpg){group="group-lbdo"}
+![Long-billed Dowitcher in Utqiagvik (Barrow), Alaska. Photo: Bruce Lyon](LBDO_Alaska_2.webp){group="group-lbdo"}
 
 :::
 
@@ -86,9 +86,9 @@ We are studying the movements of Bronze-winged Coursers during the breeding seas
 
 ::: {layout-ncol=2}
 
-![A Bronze-winged Courser in its typical breeding habitat. Photo: Jinggang Zhang](BWCO_Zambia_2023_1.JPG){group="group-bwco"}
+![A Bronze-winged Courser in its typical breeding habitat. Photo: Jinggang Zhang](BWCO_Zambia_2023_1.webp){group="group-bwco"}
 
-![A Bronze-winged Courser nesting on a recently burned area. Photo: Jinggang Zhang](BWCO_Zambia_2023_2.JPG){group="group-bwco"}
+![A Bronze-winged Courser nesting on a recently burned area. Photo: Jinggang Zhang](BWCO_Zambia_2023_2.webp){group="group-bwco"}
 
 :::
 
@@ -96,14 +96,14 @@ We are studying the movements of Bronze-winged Coursers during the breeding seas
 Bar-tailed Godwits (*Limosa lapponica*) are fascinating birds best known for their epic non-stop migration from Alaska to New Zeeland. We study a less known aspect of their behaviour during the non-breeding season in New Zealand that is just as intriguing. Adult Bar-tailed Godwits show high fidelity to the area where they feed and roost, and return to the same location year after year. In contrast, juveniles that arrive to New Zealand after their first long flight from Alaska exhibit remarkable nomadic behaviour. Most individuals visit mudflats across a large part of New Zealand before finally settling at a site for the rest of their life. 
 We hypothesize that the exploratory behaviour of young Bar-tailed Godwits  allows them to select their preferred site, possibly influenced by food availability and  the social context. For now, the causes and consequences of this behaviour remain enigmatic.
 
-![Spring departure of bar-tailed godwits from Foxton, New Zealand. Photo: Jesse Conklin.](BTGO_NZ_1.jpg){group="group-btgo"}
+![Spring departure of bar-tailed godwits from Foxton, New Zealand. Photo: Jesse Conklin.](BTGO_NZ_1.webp){group="group-btgo"}
 
 
 ::: {layout-ncol=2}
 
-![Juvenile bar-tailed godwit with satellite tag caught at Foxton, New Zealand. Photo: Cleland Wallace](BTGO_NZ_3.JPG){group="group-btgo"}
+![Juvenile bar-tailed godwit with satellite tag caught at Foxton, New Zealand. Photo: Cleland Wallace](BTGO_NZ_3.webp){group="group-btgo"}
 
-![Tagging bar-tailed godwits at Motueka Sandspit, New Zealand: Photo: Michelle Bradshaw](BTGO_NZ_2.jpg){group="group-btgo"}
+![Tagging bar-tailed godwits at Motueka Sandspit, New Zealand: Photo: Michelle Bradshaw](BTGO_NZ_2.webp){group="group-btgo"}
 
 :::
 
