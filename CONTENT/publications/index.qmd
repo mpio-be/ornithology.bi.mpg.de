@@ -33,7 +33,7 @@ setorder(x, -YEAR, -DATE, JOURNAL)
 <h1> Publications </h1>
 
 ```{r, dev.args=list(bg="#363b42" ) }
-#| fig-cap: 'The image is a visual representation of the most frequently used words in the titles of all the publications.'
+#| fig-cap: 'The image is a visual representation of the most frequently used words in the titles of all publications.'
 
 set.seed(3)
 

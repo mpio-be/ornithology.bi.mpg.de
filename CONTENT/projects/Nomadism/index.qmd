@@ -3,7 +3,7 @@ title: "Nomadism"
 author: Mihai Valcu, Eunbi Kwon, Bart Kempenaers
 date: "2012-06-01" 
 categories: [ongoing] 
-image: "about.png"
+image: "about.webp"
 bibliography: ../../data/publications.bib
 lightbox: true
 fig-cap-location: bottom
