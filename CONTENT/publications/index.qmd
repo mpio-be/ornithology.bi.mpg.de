@@ -45,7 +45,7 @@ wordcloud::wordcloud(
   max.words    = 150, 
   random.order = FALSE, 
   rot.per      = 0.2, 
-  colors       = c("#9A769C", "#AC9CB0", "#C1956E", "#FBFCFC")
+  colors       = colors1
   )
 
 ```

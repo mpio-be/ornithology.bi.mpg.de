@@ -9,6 +9,7 @@ node_modules/
 .Rhistory
 .Ruserdata
 .Rdata
+.Rproj
 .httr-oauth
 .DS_Store
 /.quarto/
