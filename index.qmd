@@ -31,9 +31,9 @@ lightbox: false
 
 <div id="dude" class="flex-shrink-0 d-none d-lg-block " data-toggle="tooltip"  data-bs-html="true"
 title= "
-Explore our field studies by clicking on a circle on the Globe! 
+Explore our field studies by pushing <i class='fas fa-circle'></i> on the Globe! <br>
 Points are locations of {{< var N_birds >}} individuals from {{< var N_species >}} shorebird species we've tracked. 
-Visit <strong><em>Projects/Nomadism</em></strong> to learn more.
+Visit <strong> /Projects/ </strong>  for more.
 "
 >
 <img src="./CONTENT/main/dude.png"  class="img-fluid img-right"> 
@@ -55,30 +55,21 @@ Visit <strong><em>Projects/Nomadism</em></strong> to learn more.
 ```{=HTML} 
 
 
-<script>
-// init bs tooltip
+<script> 
+// init bs tooltip  
 $(document).ready(function(){
   $('[data-toggle="tooltip"]').tooltip();   
 });
+
 </script>
 
 
 <script>
-// text
-$(document).ready(function(){
-    $.get("/CONTENT/main/intro_start.md", function (txt) {
-
-      marked.parse(txt)
-
-    })
-
-});
 
 $.get('/CONTENT/main/intro_start.md', function(txt) {
     const htmlContent = marked.parse(txt);
     $('#intro_start').html(htmlContent);
 });
-
 
 </script>
 

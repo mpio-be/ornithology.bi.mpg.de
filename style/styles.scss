@@ -5,20 +5,19 @@ https: //quarto.org/docs/output-formats/html-themes-more.html
 
 /*-- scss:defaults --*/
 
+// dem "#14342c", "#2f3e46", "#344d50", "#537970" 
+
 $blue                  : #28303a !default;
-$green                 : #A6CF98 !default;
+$green                 : #9cc0b7 !default;
 $body-bg               : #363b42 !default;
-$tooltip-opacity       : 0.5;
 $modal-backdrop-bg     : $body-bg;
 $modal-backdrop-opacity: 0;
 
-
 /*-- scss:rules --*/
-@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Mali&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne&display=swap');
 
 body {
-  font-family: 'Alegreya Sans', sans-serif;
+  font-family: 'Syne', sans-serif;
   overflow-x: hidden
 }
 
@@ -49,7 +48,7 @@ body {
 // index.html
 #intro_start {
   column-count: 1; 
-  font-family:Mali;
+  font-family:Syne;
 }
 .intro{
   font-size: calc(1.25rem + 0.25vw) !important;
@@ -77,4 +76,10 @@ body {
 }
 #dude:hover {
   cursor: help;
+}
+
+
+.fa-circle {
+  color: #e66119;
+
 }
