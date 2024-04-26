@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.29">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Wolfgang Forstmeier">
+<meta name="dcterms.date" content="2004-11-01">
+
+<title>Department of Ornithology – The zebra finch study system</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<link href="../../..//CONTENT/main/ico.png" rel="icon" type="image/png">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="dark">
+<link href="../../../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
+<script src="../../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+
+
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="../../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../../CONTENT/main/ico.png" alt="" class="navbar-logo">
+    </a>
+    <a class="navbar-brand" href="../../../index.html">
+    <span class="navbar-title">Department of Ornithology</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../../index.html"> 
+<span class="menu-text"><i class="fa-solid fa-house-user" aria-label="house-user"></i> Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../news.html"> 
+<span class="menu-text"><strong><i class="fas fa-rss" style="color: #EC6127;"></i> News </strong></span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../projects.html"> 
+<span class="menu-text"><i class="fa-solid fa-globe" aria-label="globe"></i> Projects</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../CONTENT/field_work/index.html"> 
+<span class="menu-text"><i class="fa-solid fa-binoculars" aria-label="binoculars"></i> Field work</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../CONTENT/publications/index.html"> 
+<span class="menu-text"><i class="fa-solid fa-book" aria-label="book"></i> Publications</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../CONTENT/team/index.html"> 
+<span class="menu-text"><i class="fa-solid fa-people-group" aria-label="people-group"></i> Team</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../CONTENT/positions/open_position.html"> 
+<span class="menu-text">Join Us!</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://github.com/mpio-be/"> 
+<span class="menu-text"><i class="fa-brands fa-github" aria-label="github"></i></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#studying-mate-choice-in-zebra-finches" id="toc-studying-mate-choice-in-zebra-finches" class="nav-link active" data-scroll-target="#studying-mate-choice-in-zebra-finches"><span class="header-section-number">1</span> Studying mate choice in zebra finches</a>
+  <ul class="collapse">
+  <li><a href="#mate-choice-in-relation-to-attractiveness" id="toc-mate-choice-in-relation-to-attractiveness" class="nav-link" data-scroll-target="#mate-choice-in-relation-to-attractiveness"><span class="header-section-number">1.1</span> Mate choice in relation to attractiveness</a></li>
+  <li><a href="#mate-choice-for-behavioural-compatibility" id="toc-mate-choice-for-behavioural-compatibility" class="nav-link" data-scroll-target="#mate-choice-for-behavioural-compatibility"><span class="header-section-number">1.2</span> Mate choice for behavioural compatibility</a></li>
+  <li><a href="#mechanisms-of-species-recognition-learning" id="toc-mechanisms-of-species-recognition-learning" class="nav-link" data-scroll-target="#mechanisms-of-species-recognition-learning"><span class="header-section-number">1.3</span> Mechanisms of species recognition learning</a></li>
+  </ul></li>
+  <li><a href="#evolutionary-genetics-of-reproductive-success" id="toc-evolutionary-genetics-of-reproductive-success" class="nav-link" data-scroll-target="#evolutionary-genetics-of-reproductive-success"><span class="header-section-number">2</span> Evolutionary genetics of reproductive success</a>
+  <ul class="collapse">
+  <li><a href="#proximate-causes-of-infertility-and-embryo-mortality" id="toc-proximate-causes-of-infertility-and-embryo-mortality" class="nav-link" data-scroll-target="#proximate-causes-of-infertility-and-embryo-mortality"><span class="header-section-number">2.1</span> Proximate causes of infertility and embryo mortality</a></li>
+  <li><a href="#fitness-consequences-of-inversion-polymorphisms" id="toc-fitness-consequences-of-inversion-polymorphisms" class="nav-link" data-scroll-target="#fitness-consequences-of-inversion-polymorphisms"><span class="header-section-number">2.2</span> Fitness consequences of inversion polymorphisms</a></li>
+  <li><a href="#the-role-of-the-germline-restricted-chromosome-grc" id="toc-the-role-of-the-germline-restricted-chromosome-grc" class="nav-link" data-scroll-target="#the-role-of-the-germline-restricted-chromosome-grc"><span class="header-section-number">2.3</span> The role of the germline-restricted chromosome (GRC)</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content page-columns page-full" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">The zebra finch study system</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">ongoing</div>
+  </div>
+  </div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Wolfgang Forstmeier </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">November 1, 2004</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>Since 2004 we study mate choice and reproductive success using up to four captive populations of zebra finches. Two populations are domesticated, presumably going back to imports from Australia in the late 19th century. Two populations are recently wild-derived, based on imports in 1992 and 2016 <span class="citation" data-cites="peiPeiYiFanProximateCausesInfertility2020 wangMachineLearningReveals2022">(<a href="#ref-peiPeiYiFanProximateCausesInfertility2020" role="doc-biblioref">Pei (裴一凡) et al. 2020</a>; <a href="#ref-wangMachineLearningReveals2022" role="doc-biblioref">Wang et al. 2022</a>)</span>. Domesticated birds tend to be larger (around 16 g compared to 12 g in wild ones) and less shy. Wild-derived birds breed equally fast and well when housed in our large semi-outdoor aviaries.</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><a href="Fig1.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Zebra finches (from left to right): domesticated male, wild-derived female, wild-derived male, domesticated female."><img src="Fig1.webp" class="img-fluid figure-img" alt="Zebra finches (from left to right): domesticated male, wild-derived female, wild-derived male, domesticated female."></a></p>
+<figcaption class="margin-caption">Zebra finches (from left to right): domesticated male, wild-derived female, wild-derived male, domesticated female.</figcaption>
+</figure>
+</div>
+<p>To study mate choice, we used a range of different approaches. Our studies showed that the key to understanding mate preferences is the direct observation of courtship interactions in communal breeding aviaries. Using motion-detection triggered recordings of a specific perch that the zebra finches use for their courtships, we managed to obtain data from about 80% of all courtship interactions that take place over the course of a breeding season <span class="citation" data-cites="ihleFitnessBenefitsMate2015 wangRoleGeneticConstraints2020">(<a href="#ref-ihleFitnessBenefitsMate2015" role="doc-biblioref">Ihle, Kempenaers, and Forstmeier 2015</a>; <a href="#ref-wangRoleGeneticConstraints2020" role="doc-biblioref">Wang et al. 2020</a>)</span>. This enabled us to directly witness mating decisions as they were unfolding. To quantify preferences, we scored the duration of male courtship as well as female responsiveness, which ranged from aggression to copulation solicitation.</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><a href="Fig2.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="A successful copulation of male ‘light-blue’ with female ‘light-blue’ on the courtship perch."><img src="Fig2.webp" class="img-fluid figure-img" alt="A successful copulation of male ‘light-blue’ with female ‘light-blue’ on the courtship perch."></a></p>
+<figcaption class="margin-caption">A successful copulation of male ‘light-blue’ with female ‘light-blue’ on the courtship perch.</figcaption>
+</figure>
+</div>
+<p>An alternative approach we used to study the process of pair formation was to equip all birds with small backpacks carrying a QR-code. This allowed us to continuously locate and track all individuals within a communal breeding aviary. In this setup, the emergence of pair bonds can be seen as a drastic drop in between-individual average distance for a particular male-female pair, that is, pair members increasingly were observed in close proximity of one another <span class="citation" data-cites="wangMachineLearningReveals2022">(@ <a href="#ref-wangMachineLearningReveals2022" role="doc-biblioref">Wang et al. 2022</a>)</span>.</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><a href="Fig3.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="A male zebra finch carrying a backpack fitted with a QR-code for automated tracking."><img src="Fig3.webp" class="img-fluid figure-img" alt="A male zebra finch carrying a backpack fitted with a QR-code for automated tracking."></a></p>
+<figcaption class="margin-caption">A male zebra finch carrying a backpack fitted with a QR-code for automated tracking.</figcaption>
+</figure>
+</div>
+<section id="studying-mate-choice-in-zebra-finches" class="level1 page-columns page-full" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Studying mate choice in zebra finches</h1>
+<section id="mate-choice-in-relation-to-attractiveness" class="level2 page-columns page-full" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="mate-choice-in-relation-to-attractiveness"><span class="header-section-number">1.1</span> Mate choice in relation to attractiveness</h2>
+<p>Analysis of female responsiveness in courtship interactions showed that female zebra finches can be very selective. However, counter to what you may think, any two females hardly ever agreed on which male they found the most attractive and which one the least attractive <span class="citation" data-cites="ihleFitnessBenefitsMate2015 wangRoleGeneticConstraints2020 wangFemaleMateChoice2021">(<a href="#ref-ihleFitnessBenefitsMate2015" role="doc-biblioref">Ihle, Kempenaers, and Forstmeier 2015</a>; <a href="#ref-wangRoleGeneticConstraints2020" role="doc-biblioref">Wang et al. 2020</a>, <a href="#ref-wangFemaleMateChoice2021" role="doc-biblioref">2021</a>)</span>. Our studies also showed that males do not seem to agree about which female to choose (Wang et al.&nbsp;2017a https://dx.doi.org/10.1093/beheco/arx037). Thus, the concept of ‘general attractiveness’ does not seem to apply to zebra finches. Accordingly, we did not observe any tendency that high-quality females would preferentially pair with high-quality males <span class="citation" data-cites="wangMaleZebraFinches2017 wangScrutinizingAssortativeMating2019">(<a href="#ref-wangMaleZebraFinches2017" role="doc-biblioref">Wang et al. 2017</a>, <a href="#ref-wangScrutinizingAssortativeMating2019" role="doc-biblioref">2019</a>)</span>, despite the fact that variation in quality can be quite pronounced. We also amplified this variation by experimental inbreeding, which resulted in individuals of obviously low quality in terms of size, ornaments, reproductive performance and viability. Even with this increased variability in quality, we did not find consistent choice for high-quality individuals.</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><a href="Fig4.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="The remarkable absence of assortative mating by phenotypic quality in the zebra finch (taken from Wang et al.&nbsp;2017b https://dx.doi.org/10.1111/evo.13341)."><img src="Fig4.webp" class="img-fluid figure-img" alt="The remarkable absence of assortative mating by phenotypic quality in the zebra finch (taken from Wang et al.&nbsp;2017b https://dx.doi.org/10.1111/evo.13341)."></a></p>
+<figcaption class="margin-caption">The remarkable absence of assortative mating by phenotypic quality in the zebra finch (taken from Wang et al.&nbsp;2017b https://dx.doi.org/10.1111/evo.13341).</figcaption>
+</figure>
+</div>
+</section>
+<section id="mate-choice-for-behavioural-compatibility" class="level2 page-columns page-full" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="mate-choice-for-behavioural-compatibility"><span class="header-section-number">1.2</span> Mate choice for behavioural compatibility</h2>
+<p>Although two females typically did not agree about which males they liked or disliked, many females showed pronounced individual-specific preferences. To test whether such idiosyncratic preferences resulted in differences in the compatibility of specific pairs, we compared the behaviour and fitness of pairs that had formed through mutual mate choice with those that were randomly arranged via force-pairing for several months. When both types of pairs were released into communal breeding aviaries, most of the “forced pairs” retained their assigned partner, yet the pair relationship was often dysfunctional, characterized by signs of behavioural incompatibility (unwillingness to copulate and to care for the offspring), and resulting in low overall fitness <span class="citation" data-cites="ihleFitnessBenefitsMate2015">(<a href="#ref-ihleFitnessBenefitsMate2015" role="doc-biblioref">Ihle, Kempenaers, and Forstmeier 2015</a>)</span>. This demonstrated that mate choice for behavioural compatibility is essential in this species, but it remains unclear which phenotypic or behavioural characteristics lead to (in)compatibility of a given pair. A follow-up study focused on courtship song and showed that song was apparently not the target of a female’s individual-specific likes and dislikes <span class="citation" data-cites="wangFemaleMateChoice2021">(<a href="#ref-wangFemaleMateChoice2021" role="doc-biblioref">Wang et al. 2021</a>)</span>. An early study <span class="citation" data-cites="forstmeierIndividualFemalesDiffer2007">(<a href="#ref-forstmeierIndividualFemalesDiffer2007" role="doc-biblioref">Forstmeier 2007</a>)</span> already suggested that females require time to find out which males they like and dislike, reducing the likelihood that readily assessable phenotypes (plumage, song) play a key role. In ongoing work, we try to assess the time window over which individual likes and dislikes develop and we want to find out whether there are “decisive events” that may explain the emergence or the break-up of a pair.</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><a href="Fig5.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-5" title="Love marriages” have higher fitness than “arranged marriages” in the zebra finch (taken from [@ihleFitnessBenefitsMate2015] )."><img src="Fig5.webp" class="img-fluid figure-img" alt="Love marriages” have higher fitness than “arranged marriages” in the zebra finch (taken from (Ihle, Kempenaers, and Forstmeier 2015) )."></a></p>
+<figcaption class="margin-caption">Love marriages” have higher fitness than “arranged marriages” in the zebra finch (taken from <span class="citation" data-cites="ihleFitnessBenefitsMate2015">(<a href="#ref-ihleFitnessBenefitsMate2015" role="doc-biblioref">Ihle, Kempenaers, and Forstmeier 2015</a>)</span> ).</figcaption>
+</figure>
+</div>
+</section>
+<section id="mechanisms-of-species-recognition-learning" class="level2 page-columns page-full" data-number="1.3">
+<h2 data-number="1.3" class="anchored" data-anchor-id="mechanisms-of-species-recognition-learning"><span class="header-section-number">1.3</span> Mechanisms of species recognition learning</h2>
+<p>Although females of a given population did not agree about their preference of particular males from their own population (see point 1), they did in fact agree that they disliked males from an unfamiliar population. Hence, when domesticated and recently wild-derived zebra finches are put together in a single aviary, individuals will predominantly mate with a partner from their own population, even when all birds are initially unfamiliar to each other. Using a cross-fostering experiment, we were able to show that birds mated assortatively for their own song dialect, i.e.&nbsp;the song they had grown up with, rather than for body size <span class="citation" data-cites="wangMachineLearningReveals2022">(<a href="#ref-wangMachineLearningReveals2022" role="doc-biblioref">Wang et al. 2022</a>)</span>. Hence, familiarity with the song, which can rapidly diverge between populations due to cultural drift (much like human languages do), appears to drive assortative mating by population. Making use of this clear preference for the own song dialect, we manipulated the availability of preferred partners to quantify the costs of female choosiness. We found that females can effectively minimize the costs of being choosy when the availability of partners is low <span class="citation" data-cites="forstmeierFitnessCostsFemale2021">(<a href="#ref-forstmeierFitnessCostsFemale2021" role="doc-biblioref">Forstmeier et al. 2021</a>)</span>. In further follow-up experiments we now investigate whether familiarizing the birds with the other population in adulthood (mere exposure) can abolish or reduce the own-population preference. We also test whether assortative mating by phenotype can be induced by manipulating early-life experiences with certain phenotypes.</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><a href="Fig6.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-6" title="The data points show machine-learning-based estimates of whether a male’s song belongs to the same dialect (blue) with which a female grew up, or to a different dialect (red). These estimates are powerful predictors of female mate choice (taken from [@wangMachineLearningReveals2022] )."><img src="Fig6.webp" class="img-fluid figure-img" alt="The data points show machine-learning-based estimates of whether a male’s song belongs to the same dialect (blue) with which a female grew up, or to a different dialect (red). These estimates are powerful predictors of female mate choice (taken from (Wang et al. 2022) )."></a></p>
+<figcaption class="margin-caption">The data points show machine-learning-based estimates of whether a male’s song belongs to the same dialect (blue) with which a female grew up, or to a different dialect (red). These estimates are powerful predictors of female mate choice (taken from <span class="citation" data-cites="wangMachineLearningReveals2022">(<a href="#ref-wangMachineLearningReveals2022" role="doc-biblioref">Wang et al. 2022</a>)</span> ).</figcaption>
+</figure>
+</div>
+</section>
+</section>
+<section id="evolutionary-genetics-of-reproductive-success" class="level1 page-columns page-full" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> Evolutionary genetics of reproductive success</h1>
+<section id="proximate-causes-of-infertility-and-embryo-mortality" class="level2 page-columns page-full" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="proximate-causes-of-infertility-and-embryo-mortality"><span class="header-section-number">2.1</span> Proximate causes of infertility and embryo mortality</h2>
+<p>Studying the reproductive performance of four zebra finch populations in captivity, we found surprisingly large variation among pairs – and also among individuals – in the extent to which they suffered from problems with fertility and embryo mortality. Analysing the fate of more than 23,000 eggs, we found that only about 3% of the variance can be attributed to inbreeding, senescence, or poor early-life nutrition <span class="citation" data-cites="peiPeiYiFanProximateCausesInfertility2020">(<a href="#ref-peiPeiYiFanProximateCausesInfertility2020" role="doc-biblioref">Pei (裴一凡) et al. 2020</a>)</span>, implying that most of the individual differences remain unexplained. Approximately one-third of the repeatable differences in reproductive performance appear to be heritable, but selection may fail to remove this genetic variation due to genetic trade-offs between male versus female and offspring fitness traits (sexually antagonistic pleiotropy; <span class="citation" data-cites="peiPeiYiFanProximateCausesInfertility2020">(<a href="#ref-peiPeiYiFanProximateCausesInfertility2020" role="doc-biblioref">Pei (裴一凡) et al. 2020</a>)</span>).</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><a href="Fig7.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-7" title="Genetic correlations in fitness traits tend to be negative (blue) between males and females (MF) and between offspring and adult males (OM), suggesting that antagonistic pleiotropy is more common than good-gene variation in fitness traits (taken from [@peiPeiYiFanProximateCausesInfertility2020])"><img src="Fig7.webp" class="img-fluid figure-img" alt="Genetic correlations in fitness traits tend to be negative (blue) between males and females (MF) and between offspring and adult males (OM), suggesting that antagonistic pleiotropy is more common than good-gene variation in fitness traits (taken from (Pei (裴一凡) et al. 2020))"></a></p>
+<figcaption class="margin-caption">Genetic correlations in fitness traits tend to be negative (blue) between males and females (MF) and between offspring and adult males (OM), suggesting that antagonistic pleiotropy is more common than good-gene variation in fitness traits (taken from <span class="citation" data-cites="peiPeiYiFanProximateCausesInfertility2020">(<a href="#ref-peiPeiYiFanProximateCausesInfertility2020" role="doc-biblioref">Pei (裴一凡) et al. 2020</a>)</span>)</figcaption>
+</figure>
+</div>
+</section>
+<section id="fitness-consequences-of-inversion-polymorphisms" class="level2 page-columns page-full" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="fitness-consequences-of-inversion-polymorphisms"><span class="header-section-number">2.2</span> Fitness consequences of inversion polymorphisms</h2>
+<p>At least 6 out of the 40 chromosomes that make up the zebra finch genome are characterized by an inversion polymorphism, whereby two major structural variants of the chromosome occur in the population with allele frequencies remarkably close to 50%. We investigated how these six polymorphisms affected individual fitness in captivity. Some polymorphisms appear to be maintained by heterozygote advantage (<span class="citation" data-cites="kniefSexchromosomeInversionCauses2017">(<a href="#ref-kniefSexchromosomeInversionCauses2017" role="doc-biblioref">Knief et al. 2017</a>)</span>), which may arise from antagonistic pleiotropy <span class="citation" data-cites="peiWeakAntagonisticFitness2023">(<a href="#ref-peiWeakAntagonisticFitness2023" role="doc-biblioref">Pei et al. 2023</a>)</span>, while other polymorphisms appear to be largely selectively neutral <span class="citation" data-cites="kniefFitnessConsequencesPolymorphic2016">(<a href="#ref-kniefFitnessConsequencesPolymorphic2016" role="doc-biblioref">Knief et al. 2016</a>)</span>.</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><a href="Fig8.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-8" title="Heterosis caused by an inversion polymorphism on the male sex-chromosome (Z), which also shows large effects on sperm morphology and velocity (taken from [@kniefSexchromosomeInversionCauses2017])."><img src="Fig8.webp" class="img-fluid figure-img" alt="Heterosis caused by an inversion polymorphism on the male sex-chromosome (Z), which also shows large effects on sperm morphology and velocity (taken from (Knief et al. 2017))."></a></p>
+<figcaption class="margin-caption">Heterosis caused by an inversion polymorphism on the male sex-chromosome (Z), which also shows large effects on sperm morphology and velocity (taken from <span class="citation" data-cites="kniefSexchromosomeInversionCauses2017">(<a href="#ref-kniefSexchromosomeInversionCauses2017" role="doc-biblioref">Knief et al. 2017</a>)</span>).</figcaption>
+</figure>
+</div>
+</section>
+<section id="the-role-of-the-germline-restricted-chromosome-grc" class="level2 page-columns page-full" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="the-role-of-the-germline-restricted-chromosome-grc"><span class="header-section-number">2.3</span> The role of the germline-restricted chromosome (GRC)</h2>
+<p>In our search of potential genetic causes of infertility and embryo mortality, we also focused on the little-understood GRC. All songbirds appear to have this special chromosome, which can only be found in the germline (testes, ovaries, early embryos), but is absent from all somatic tissues. By comparing sequencing data from testes and liver, we identified a minimum of 115 genes that are located on the zebra finch GRC. Some of these appear to have resided on the GRC for at least 35 million years of songbird evolution <span class="citation" data-cites="kinsellaProgrammedDNAElimination2019">(<a href="#ref-kinsellaProgrammedDNAElimination2019" role="doc-biblioref">Kinsella et al. 2019</a>)</span>. It was thought that a key feature of the GRC is that it is inherited exclusively through mothers. However, by studying the inheritance of GRC haplotypes, we discovered that paternal inheritance is also possible, and we found that males varied repeatably in the proportion of their sperm that contained a GRC <span class="citation" data-cites="peiOccasionalPaternalInheritance2022">(<a href="#ref-peiOccasionalPaternalInheritance2022" role="doc-biblioref">Pei et al. 2022</a>)</span>. In ongoing follow-up studies, we are examining the repeatability, heritability, and fitness consequences of this phenotype in more detail.</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><a href="Fig9.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-9" title="Presence of a GRC (pink) inside of one out of two sperm heads (blue), taken from [@peiOccasionalPaternalInheritance2022] ."><img src="Fig9.webp" class="img-fluid figure-img" alt="Presence of a GRC (pink) inside of one out of two sperm heads (blue), taken from (Pei et al. 2022) ."></a></p>
+<figcaption class="margin-caption">Presence of a GRC (pink) inside of one out of two sperm heads (blue), taken from <span class="citation" data-cites="peiOccasionalPaternalInheritance2022">(<a href="#ref-peiOccasionalPaternalInheritance2022" role="doc-biblioref">Pei et al. 2022</a>)</span> .</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><a href="Fig10.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-10" title="GRC haplotypes (right) are not co-inherited with mitochondrial haplotypes (left), taken from [@peiOccasionalPaternalInheritance2022] ."><img src="Fig10.webp" class="img-fluid figure-img" alt="GRC haplotypes (right) are not co-inherited with mitochondrial haplotypes (left), taken from (Pei et al. 2022) ."></a></p>
+<figcaption class="margin-caption">GRC haplotypes (right) are not co-inherited with mitochondrial haplotypes (left), taken from <span class="citation" data-cites="peiOccasionalPaternalInheritance2022">(<a href="#ref-peiOccasionalPaternalInheritance2022" role="doc-biblioref">Pei et al. 2022</a>)</span> .</figcaption>
+</figure>
+</div>
+
+
+
+</section>
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-forstmeierIndividualFemalesDiffer2007" class="csl-entry" role="listitem">
+Forstmeier, Wolfgang. 2007. <span>“Do <span>Individual Females Differ Intrinsically</span> in <span>Their Propensity</span> to <span>Engage</span> in <span>Extra-Pair Copulations</span>?”</span> Edited by Tom Tregenza. <em>PLoS ONE</em> 2 (9): e952. <a href="https://doi.org/10.1371/journal.pone.0000952">https://doi.org/10.1371/journal.pone.0000952</a>.
+</div>
+<div id="ref-forstmeierFitnessCostsFemale2021" class="csl-entry" role="listitem">
+Forstmeier, Wolfgang, Daiping Wang, Katrin Martin, and Bart Kempenaers. 2021. <span>“Fitness Costs of Female Choosiness Are Low in a Socially Monogamous Songbird.”</span> Edited by Michael D. Jennions. <em>PLOS Biology</em> 19 (11): e3001257. <a href="https://doi.org/10.1371/journal.pbio.3001257">https://doi.org/10.1371/journal.pbio.3001257</a>.
+</div>
+<div id="ref-ihleFitnessBenefitsMate2015" class="csl-entry" role="listitem">
+Ihle, Malika, Bart Kempenaers, and Wolfgang Forstmeier. 2015. <span>“Fitness <span>Benefits</span> of <span>Mate Choice</span> for <span>Compatibility</span> in a <span>Socially Monogamous Species</span>.”</span> Edited by Russell Bonduriansky. <em>PLOS Biology</em> 13 (9): e1002248. <a href="https://doi.org/10.1371/journal.pbio.1002248">https://doi.org/10.1371/journal.pbio.1002248</a>.
+</div>
+<div id="ref-kinsellaProgrammedDNAElimination2019" class="csl-entry" role="listitem">
+Kinsella, Cormac M., Francisco J. Ruiz-Ruano, Anne-Marie Dion-Côté, Alexander J. Charles, Toni I. Gossmann, Josefa Cabrero, Dennis Kappei, et al. 2019. <span>“Programmed <span>DNA</span> Elimination of Germline Development Genes in Songbirds.”</span> <em>Nature Communications</em> 10 (1): 5468. <a href="https://doi.org/10.1038/s41467-019-13427-4">https://doi.org/10.1038/s41467-019-13427-4</a>.
+</div>
+<div id="ref-kniefSexchromosomeInversionCauses2017" class="csl-entry" role="listitem">
+Knief, Ulrich, Wolfgang Forstmeier, Yifan Pei, Malika Ihle, Daiping Wang, Katrin Martin, Pavlína Opatová, et al. 2017. <span>“A Sex-Chromosome Inversion Causes Strong Overdominance for Sperm Traits That Affect Siring Success.”</span> <em>Nature Ecology &amp; Evolution</em> 1 (8): 1177–84. <a href="https://doi.org/10.1038/s41559-017-0236-1">https://doi.org/10.1038/s41559-017-0236-1</a>.
+</div>
+<div id="ref-kniefFitnessConsequencesPolymorphic2016" class="csl-entry" role="listitem">
+Knief, Ulrich, Georg Hemmrich-Stanisak, Michael Wittig, Andre Franke, Simon C. Griffith, Bart Kempenaers, and Wolfgang Forstmeier. 2016. <span>“Fitness Consequences of Polymorphic Inversions in the Zebra Finch Genome.”</span> <em>Genome Biology</em> 17 (1): 199. <a href="https://doi.org/10.1186/s13059-016-1056-3">https://doi.org/10.1186/s13059-016-1056-3</a>.
+</div>
+<div id="ref-peiWeakAntagonisticFitness2023" class="csl-entry" role="listitem">
+Pei, Yifan, Wolfgang Forstmeier, Ulrich Knief, and Bart Kempenaers. 2023. <span>“Weak Antagonistic Fitness Effects Can Maintain an Inversion Polymorphism.”</span> <em>Molecular Ecology</em> 32 (13): 3575–85. <a href="https://doi.org/10.1111/mec.16963">https://doi.org/10.1111/mec.16963</a>.
+</div>
+<div id="ref-peiOccasionalPaternalInheritance2022" class="csl-entry" role="listitem">
+Pei, Yifan, Wolfgang Forstmeier, Francisco J. Ruiz-Ruano, Jakob C. Mueller, Josefa Cabrero, Juan Pedro M. Camacho, Juan D. Alché, et al. 2022. <span>“Occasional Paternal Inheritance of the Germline-Restricted Chromosome in Songbirds.”</span> <em>Proceedings of the National Academy of Sciences</em> 119 (4): e2103960119. <a href="https://doi.org/10.1073/pnas.2103960119">https://doi.org/10.1073/pnas.2103960119</a>.
+</div>
+<div id="ref-peiPeiYiFanProximateCausesInfertility2020" class="csl-entry" role="listitem">
+Pei (裴一凡), Yifan, Wolfgang Forstmeier, Daiping Wang (王代平), Katrin Martin, Joanna Rutkowska, and Bart Kempenaers. 2020. <span>“Proximate <span>Causes</span> of <span>Infertility</span> and <span>Embryo Mortality</span> in <span>Captive Zebra Finches</span>.”</span> <em>The American Naturalist</em> 196 (5): 577–96. <a href="https://doi.org/10.1086/710956">https://doi.org/10.1086/710956</a>.
+</div>
+<div id="ref-wangFemaleMateChoice2021" class="csl-entry" role="listitem">
+Wang, Daiping, Wolfgang Forstmeier, Pietro B. D’Amelio, Katrin Martin, and Bart Kempenaers. 2021. <span>“Is Female Mate Choice Repeatable Across Males with Nearly Identical Songs?”</span> <em>Animal Behaviour</em> 181 (November): 137–49. <a href="https://doi.org/10.1016/j.anbehav.2021.09.001">https://doi.org/10.1016/j.anbehav.2021.09.001</a>.
+</div>
+<div id="ref-wangMachineLearningReveals2022" class="csl-entry" role="listitem">
+Wang, Daiping, Wolfgang Forstmeier, Damien R. Farine, Adriana A. Maldonado-Chaparro, Katrin Martin, Yifan Pei, Gustavo Alarcón-Nieto, et al. 2022. <span>“Machine Learning Reveals Cryptic Dialects That Explain Mate Choice in a Songbird.”</span> <em>Nature Communications</em> 13 (1): 1630. <a href="https://doi.org/10.1038/s41467-022-28881-w">https://doi.org/10.1038/s41467-022-28881-w</a>.
+</div>
+<div id="ref-wangRoleGeneticConstraints2020" class="csl-entry" role="listitem">
+Wang, Daiping, Wolfgang Forstmeier, Katrin Martin, Alastair Wilson, and Bart Kempenaers. 2020. <span>“The Role of Genetic Constraints and Social Environment in Explaining Female Extra-Pair Mating.”</span> <em>Evolution</em> 74 (3): 544–58. <a href="https://doi.org/10.1111/evo.13905">https://doi.org/10.1111/evo.13905</a>.
+</div>
+<div id="ref-wangScrutinizingAssortativeMating2019" class="csl-entry" role="listitem">
+Wang, Daiping, Wolfgang Forstmeier, Mihai Valcu, Niels J. Dingemanse, Martin Bulla, Christiaan Both, Renée A. Duckworth, et al. 2019. <span>“Scrutinizing Assortative Mating in Birds.”</span> Edited by Michael D. Jennions. <em>PLOS Biology</em> 17 (2): e3000156. <a href="https://doi.org/10.1371/journal.pbio.3000156">https://doi.org/10.1371/journal.pbio.3000156</a>.
+</div>
+<div id="ref-wangMaleZebraFinches2017" class="csl-entry" role="listitem">
+Wang, Daiping, Nele Kempenaers, Bart Kempenaers, and Wolfgang Forstmeier. 2017. <span>“Male Zebra Finches Have Limited Ability to Identify High-Fecundity Females.”</span> <em>Behavioral Ecology</em> 28 (3): 784–92. <a href="https://doi.org/10.1093/beheco/arx037">https://doi.org/10.1093/beheco/arx037</a>.
+</div>
+</div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("http:\/\/ornithology\.bi\.mpg\.de\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
+          // default icon
+          link.classList.add("external");
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="http://ornithology.bi.mpg.de/">
+<p><i class="fa-regular fa-copyright" aria-label="copyright"></i> 2024 Dept. of Ornithology</p>
+</a>
+  </li>  
+</ul>
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="mailto:Mihai.Valcu@bi.mpg.de">
+<p><i class="fa-solid fa-at" aria-label="at"></i> admin</p>
+</a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","selector":".lightbox","closeEffect":"zoom","descPosition":"bottom","loop":false});
+window.onload = () => {
+  lightboxQuarto.on('slide_before_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    const href = trigger.getAttribute('href');
+    if (href !== null) {
+      const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+      if (imgEl !== null) {
+        const srcAttr = imgEl.getAttribute("src");
+        if (srcAttr && srcAttr.startsWith("data:")) {
+          slideConfig.href = srcAttr;
+        }
+      }
+    } 
+  });
+
+  lightboxQuarto.on('slide_after_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    if (window.Quarto?.typesetMath) {
+      window.Quarto.typesetMath(slideNode);
+    }
+  });
+
+};
+          </script>
+
+
+
+
+<script src="../../../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>

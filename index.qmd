@@ -36,7 +36,7 @@ Points are locations of {{< var N_birds >}} individuals from {{< var N_species >
 Visit <strong> /Projects/ </strong>  for more.
 "
 >
-<img src="./CONTENT/main/dude.png"  class="img-fluid img-right"> 
+<img src="./CONTENT/main/dude.webp"  class="img-fluid img-right"> 
 <hr>
 </div>
 

@@ -18,7 +18,11 @@ $modal-backdrop-opacity: 0;
 
 body {
   font-family: 'Syne', sans-serif;
-  overflow-x: hidden
+  overflow-x: hidden;
+  background-image: url(/CONTENT/main/bgbird.webp) ;
+  background-repeat: no-repeat;
+  background-size: 5%;
+  background-position: right 20% top 30%;
 }
 
 // .navbar-logo {
