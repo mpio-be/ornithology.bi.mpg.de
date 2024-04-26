@@ -19,7 +19,6 @@ lightbox: false
 <script src="./js/marked.js"></script>
 ```
 
-
 <!-- content: globe, dude, text -->
 ```{=HTML} 
 
