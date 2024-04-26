@@ -43,4 +43,4 @@ Our research has examined many other aspects of blue tit biology. Blue tits lay 
 
 # Resources
 
-All blue tit publications, all information about the egg proteome [@valcuLifeHistoryShapes2019] and the blue tit genome and transcriptome [@muellerCharacterizationGenomeTranscriptome2016], and the entire database are or will soon be made publicly available. 
+All blue tit publications, all information about the egg proteome [@valcuLifeHistoryShapes2019] and the blue tit genome and transcriptome [@muellerCharacterizationGenomeTranscriptome2016; @mueller2023micro], and the entire database are or will soon be made publicly available. 
