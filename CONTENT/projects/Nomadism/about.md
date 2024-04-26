@@ -1,5 +1,5 @@
 <!-- do not alter next line -->
-<img src="/CONTENT/projects/Nomadism/about.png" class="float-end imgshadow rounded" style = "height:25vh;">
+<img src="/CONTENT/projects/Nomadism/about.webp" class="float-end imgshadow rounded" style = "height:25vh;">
 
 *Nomadism*
 

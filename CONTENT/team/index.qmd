@@ -9,7 +9,7 @@ lightbox: true
 fig-cap-location: bottom
 ---
 
-![January 2024, Seewiesen](Seewiesen_Kempenaers_Group_Jan_2024.jpg){group="group-kemps"}
+![January 2024, Seewiesen](Seewiesen_Kempenaers_Group_Jan_2024.webp){group="group-kemps"}
 
 <hr>
 
@@ -17,17 +17,17 @@ fig-cap-location: bottom
 ::: {layout-ncol=4}
 ![Summer 2023](Diesen_Kempenaers_Group_2023.webp){group="group-kemps"}
 
-![Arctic field work 2023, Utqiaġvik, Alaska](Barrow_Team_2023.jpg){group="group-kemps"}
+![Arctic field work 2023, Utqiaġvik, Alaska](Barrow_Team_2023.webp){group="group-kemps"}
 
-![Diademed Sandpiper Plover field work 2022, Andes Mountains, El Yeso Valley, Chile](/CONTENT/projects/Diademed_Sandpiper_Plover/Fig6.jpg){group="group-kemps"}
+![Diademed Sandpiper Plover field work 2022, Andes Mountains, El Yeso Valley, Chile](/CONTENT/projects/Diademed_Sandpiper_Plover/Fig6.webp){group="group-kemps"}
 
-![Blue Tit field work 2020, Westerholz, Germany](Westerholz_Team_2020.jpeg){group="group-kemps"}
+![Blue Tit field work 2020, Westerholz, Germany](Westerholz_Team_2020.webp){group="group-kemps"}
 
-![Arctic field work 2019, Utqiaġvik, Alaska](Barrow_Team_2019.jpg){group="group-kemps"}
+![Arctic field work 2019, Utqiaġvik, Alaska](Barrow_Team_2019.webp){group="group-kemps"}
 
-![Dolomites field work 2019, Italy](Italy_Team_2019.jpg){group="group-kemps"}
+![Dolomites field work 2019, Italy](Italy_Team_2019.webp){group="group-kemps"}
 
-![Blue Tit field work 2015, Westerholz, Germany](Westerholz_Team_2015.jpg){group="group-kemps"}
+![Blue Tit field work 2015, Westerholz, Germany](Westerholz_Team_2015.webp){group="group-kemps"}
 
 ![Arctic field work 2015, Utqiaġvik, Alaska](Barrow_Team_2012.webp){group="group-kemps"}
 
@@ -43,6 +43,7 @@ c('data.table', 'dplyr', 'rvest','foreach','glue',
     'sf', 'rnaturalearth', 'ggplot2'),
 require, character.only = TRUE, quietly = TRUE) |> invisible()
 
+source("./R/utils.R")
 
 ```
 ```{r, alumni, dev.args=list(bg="#363b42" ) }
@@ -63,7 +64,7 @@ a = full_join(x, a, by = "name")
 ggplot() + 
 geom_sf(data = a, aes(fill = status), color = "grey80") + 
 scale_fill_manual(
-    values   = c("#527C5A", "#9A769C", "#FBFCFC"), 
+    values   = colors2, 
     breaks   = c("Current members", "Alumni"), 
     na.value = "#FBFCFC", 
     name     = NULL) + 

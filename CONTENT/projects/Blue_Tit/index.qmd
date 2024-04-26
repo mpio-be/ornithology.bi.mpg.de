@@ -15,7 +15,7 @@ Blue tits – familiar garden birds to most Europeans – typically breed as a s
 
 To address these and other questions, we studied a population of blue tits at the Westerholz forest in southern Germany between 2007 and 2022. Our study site contained 277 nestboxes, of which roughly half were occupied by breeding blue tits each spring. Each nestbox was equipped with RFID technology that recorded nestbox visits of PIT-tagged blue tits around the clock and all year round. 
 
-{{< video BlueTit_fledging.mp4 >}}
+{{< video BlueTit_fledging.webm >}}
 
 Through intensive catching, almost all individuals in the population carried a tag at any given time, and by blood sampling all caught adults and nestlings we obtained almost complete information on genetic parentage. What did we learn from using this “big brother” style monitoring system? 
 

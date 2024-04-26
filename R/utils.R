@@ -1,6 +1,7 @@
 
 
 colors1 = c("#9A769C", "#AC9CB0", "#e2a066", "#FBFCFC")
+colors2 = c("#527C5A", "#9A769C", "#FBFCFC")
 
 char_to_wordcloud <- function(x) {
 
