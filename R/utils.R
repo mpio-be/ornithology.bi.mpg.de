@@ -8,7 +8,7 @@ char_to_wordcloud <- function(x) {
   d = 
   x |>
   na.omit() |>
-  singularize() |>
+  # singularize() |> # pluralize is archived 2024-04-29
   str_to_lower() |>
   str_remove_all( "emph") |>
   str_remove_all( "(?:zero|one|two|three|four|five|six|seven|eight|nine|ten)") |>

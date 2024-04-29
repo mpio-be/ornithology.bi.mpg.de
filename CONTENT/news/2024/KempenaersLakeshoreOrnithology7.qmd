@@ -1,0 +1,14 @@
+---
+title: "Ornithology from the Lakeshore: Life’s Mass Murderers"
+author: Carol Gilsenan
+date: "2024-Apr-02"
+categories: [new publication]
+image: https://ardea.nou.nu/oog100b.jpg
+bibliography: ./../../data/publications.bib
+---
+
+Bart Kempenaers latest editorial for the Dutch ornithological journal Ardea entitled “Life’s Mass Murderers” can be read now here.
+
+[@KempenaersLakeshoreOrnithology7]
+
+{{< pdf KempenaersLakeshoreOrnithology7.pdf width=100% height=800 >}}
