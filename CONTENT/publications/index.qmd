@@ -1,7 +1,8 @@
 ---
 pagetitle: "Publications | Kempenaers Lab"
 number-sections: false
-toc-title: "Year"
+toc-title: "Content"
+toc-depth: 2
 warning: false
 echo: false
 lightbox: auto
@@ -30,8 +31,6 @@ setorder(x, -YEAR, -DATE, JOURNAL)
 
 ```
 
-<h1> Publications </h1>
-
 ```{r, dev.args=list(bg="#363b42" ) }
 #| fig-cap: 'The image is a visual representation of the most frequently used words in the titles of all publications.'
 
@@ -50,7 +49,7 @@ wordcloud::wordcloud(
 
 ```
 
-
+# __Publications__
 
 ```{r}
 #| echo: false
@@ -58,7 +57,7 @@ wordcloud::wordcloud(
 
 for(y in unique(x$YEAR) ) {
 
-cat(paste("#", y, '\n\n'))
+cat(paste("##", y, '\n\n'))
 
 x[YEAR == y, bb] |> cat()
 
@@ -68,3 +67,7 @@ cat('\n\n')
 }
 
 ```
+
+# __Editorials  {{< ai open-access >}}__
+
+## Ornithology from the lakeshore
