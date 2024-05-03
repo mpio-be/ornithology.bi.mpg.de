@@ -4,7 +4,7 @@ author: Peter Santema, Emmi Schlicht, Lotte Schlicht
 date: "2007-03-01" 
 categories: [completed] 
 image: "about.webp"
-bibliography: ../../data/publications.bib
+bibliography: ../../biblio/publications.bib
 lightbox: true
 fig-cap-location: margin
 ---

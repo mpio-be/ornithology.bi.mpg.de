@@ -13,7 +13,7 @@ fig-cap-location: bottom
 ```{r}
 #| output: false
 sapply(
-c('data.table', 'bib2df', 'bibtex', 'wordcloud', 'tm', 'stringr', 'pluralize'),
+c('data.table', 'glue', 'bib2df', 'bibtex', 'wordcloud', 'tm', 'stringr', 'pluralize'),
 require, character.only = TRUE, quietly = TRUE)
 
 source("./R/utils.R")
@@ -21,13 +21,23 @@ source("./R/utils.R")
 tools::bibstyle("thisBib", this.bibstyle() )
 
 
-b = bibtex::read.bib('./CONTENT/data/publications.bib')
+b = bibtex::read.bib('./CONTENT/biblio/publications.bib')
 
-x = bib2df('./CONTENT/data/publications.bib') |> setDT()
+x = bib2df('./CONTENT/biblio/publications.bib') |> setDT()
 
 x[, bb := format(b, style = "html", .bibstyle = "thisBib") ]
 
+# when pdf is present
+x[!is.na(PDF), PDF := paste0('./../../CONTENT/biblio/pdfs/', PDF)]
+x[!is.na(PDF), bb := str_replace(bb, "</p>$", 
+  glue_data(.SD, '<a href="{PDF}" target="_blank"> <i class="fas fa-file-pdf fa-lg text-success" ></i></a></p>', .sep = ""))]
+
 setorder(x, -YEAR, -DATE, JOURNAL)
+
+# pub groups
+papers     = x[is.na(GROUP), ]
+editorials = x[GROUP == 'editorial', ]
+
 
 ```
 
@@ -48,18 +58,34 @@ wordcloud::wordcloud(
   )
 
 ```
+# __Editorials  {{< ai open-access >}}__
 
-# __Publications__
 
 ```{r}
 #| echo: false
 #| output: asis
 
-for(y in unique(x$YEAR) ) {
+editorials[, bb] |> cat()
+
+cat('\n')
+
+
+```
+
+
+# __Publications {{< bi book >}} __
+
+
+
+```{r}
+#| echo: false
+#| output: asis
+
+for(y in unique(papers$YEAR) ) {
 
 cat(paste("##", y, '\n\n'))
 
-x[YEAR == y, bb] |> cat()
+papers[YEAR == y, bb] |> cat()
 
 cat('\n\n')
 
@@ -67,7 +93,3 @@ cat('\n\n')
 }
 
 ```
-
-# __Editorials  {{< ai open-access >}}__
-
-## Ornithology from the lakeshore

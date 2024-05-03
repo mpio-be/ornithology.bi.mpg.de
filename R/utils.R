@@ -105,6 +105,7 @@ this.bibstyle <- function (){
     fmtNote         = plainclean
     fmtSchool       = plainclean
     fmtUrl          = label(prefix = "\\url{", suffix = "}")
+
     
     fmtPages = function(pages) {
         if(!is.null(pages) && grepl('\\d+--\\d+', pages)) pages else NULL

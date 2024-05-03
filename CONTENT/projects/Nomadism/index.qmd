@@ -4,7 +4,7 @@ author: Mihai Valcu, Eunbi Kwon, Bart Kempenaers
 date: "2012-06-01" 
 categories: [ongoing] 
 image: "about.webp"
-bibliography: ../../data/publications.bib
+bibliography: ../../biblio/publications.bib
 lightbox: true
 fig-cap-location: bottom
 ---
@@ -81,7 +81,7 @@ Most __socially monogamous shorebirds__ return to the same breeding site year af
 # The Bronze-winged Courser
 Exploring multiple breeding sites to increase mating opportunities is not the only reason for nomadism. Some species breed in particular habitats and undertake nomadic movements to find optimal breeding conditions, because the presence of suitable habitat varies widely over time and in space. For these species, nomadism is a response to ecological unpredictability.
 
-The Bronze-winged Courser (*Rhinoptilus chalcopterus*) is a socially monogamous species found in the African Miombo savannas and shrublands. Notably, they prefer breeding in recently burned patches of land [@lakeshoreOrnithologyKempenaers6].
+The Bronze-winged Courser (*Rhinoptilus chalcopterus*) is a socially monogamous species found in the African Miombo savannas and shrublands. Notably, they prefer breeding in recently burned patches of land [@KempenaersLakeshoreOrnithology6].
 We are studying the movements of Bronze-winged Coursers during the breeding season. Our aim is to describe the intricacies of their nomadic lifestyle, and to decipher some of its mysteries, such as how do they find and use burned areas.
 
 ::: {layout-ncol=2}

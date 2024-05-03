@@ -7,8 +7,8 @@ categories: [new publication]
 image: "JinggangFarmingBehaviour2024.webp"
 lightbox: true
 fig-cap-location: margin
-bibliography: ./../../data/publications.bib
-csl: ./../../data/bib_style.csl
+bibliography: ./../../biblio/publications.bib
+csl: ./../../biblio/bib_style.csl
 ---
 
 A video recording of a Daurian redstart nest from a population in NE China showed that a common cuckoo ejected all the host nestlings. When the redstart then produced a new nest, it was parasitized by the cuckoo. These observations provide circumstantial evidence for “farming behaviour” by a brood parasite.

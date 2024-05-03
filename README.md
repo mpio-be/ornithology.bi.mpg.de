@@ -28,9 +28,21 @@ This project uses the following software:
 #### Adding a new publication in `/CONTENT/data/publications.bib`
  * check https://www.bibtex.com/g/bibtex-format/ for more info.
  * search and use Google Scholar to export to bib.
- * always add a space after title, author, etc. 
  * add new publications on top. 
+ * when the entry is an editorial add `group  = {editorial}` to the bib entry.
+ * always add a space after title, author, etc. 
+ * if the pdf is made available :
+    - add the pdf file to `/CONTENT/biblio/pdfs`
+    - add `pdf = {fileName.pdf}`. For `fileName` see _Naming conventions_.
 
 #### Adding a __news__ item in `/CONTENT/news/YYYY/`
   * Create a new `.*qmd` file using a previous file as template. 
-  * If the `news` item refers to a new publication, the file, the image associated with it and the bib entry in`/CONTENT/data/publications.bib` should have the same name. For file names, `AuthorKeywordYear` is a good template.
+  
+#### Naming conventions
+  * as naming template, use `AuthorKeywordYear`, as in `/CONTENT/biblio/publications.bib`.
+  * whenever appropriate the naming template should be applied to:
+    -  `publications.bib` entries.
+    -  `*.qmd` files in `news`. 
+    -  `*.webp` files in `news`.
+    -  `*.pdf` files in `biblio/pdfs`.
+  
