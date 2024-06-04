@@ -9,6 +9,7 @@ project:
     - CONTENT/data
     - CONTENT/biblio
     - CONTENT/main
+    - CONTENT/logo
     - CONTENT/projects/*/about.md
     - CONTENT/projects/*/about.webp
     - js
