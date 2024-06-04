@@ -1,0 +1,4 @@
+
+deep lilac:    #9a769cff, #c1956eff, #baa3bcff, #dbcdfcff, #fbfcfcff
+mossy green:   #748f72ff, #92a87cff, #9db593ff, #c3d2bfff, #f7f9f8ff
+cerulean blue: #5e97b4ff, #87a3b8ff, #96a9cdff, #b3c4d2ff, #f7f9f8ff
