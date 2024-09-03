@@ -1,0 +1,12 @@
+---
+title: "Opening of the Max Planck – University of Cape Town Centre for Behaviour and Coevolution" 
+author: Bart Kempenaers
+date: "2024-Jun-01"
+categories: [event]
+lightbox: true
+image: "MPUCTLogo.webp"
+---
+
+The 1st of June 2024 was the official start of the newly established Max Planck – University of Cape Town Centre for Behaviour and Coevolution, a partnership between the research team led by Prof. Claire Spottiswoode at the Fitzpatrick Institute of African Ornithology and our research group. We ask how behavioural interactions between species act as an engine of biodiversity in a changing world. We aim at having a long-lasting impact on research in Africa in behavioural and evolutionary ecology and global change biology. We are dedicated to supporting the next generation of global African and African-oriented scientists. The opening workshop took place at the Max Planck Institute in Seewiesen on 10-14 June.  
+
+![Photo by Claire Spottiswoode](MPUCT.webp){width=50%}
