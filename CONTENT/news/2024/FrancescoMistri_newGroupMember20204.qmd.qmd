@@ -1,0 +1,17 @@
+---
+title: "Welcome to Francesco Mistri" 
+author: Mihai Valcu
+date: "2024-Aug-01"
+categories: [new group member]
+lightbox: true
+image: "FrancescoMistri2024.webp"
+---
+
+
+We are thrilled to have Francesco Mistri join our team as a Data Scientist. 
+Francesco, a recent graduate from the University of Bologna with a Master's in Artificial Intelligence, brings a strong foundation in computer science and a passion for machine learning. His expertise in Python, C++, PyTorch, and computer vision, combined with his experience in open-source collaboration, will be invaluable to our team. We're excited to see how Francesco’s skills and dedication will contribute to our ongoing and future projects.
+
+
+
+
+![Photo credit: Francesco Mistri](FrancescoMistri2024.webp){width=40%}
