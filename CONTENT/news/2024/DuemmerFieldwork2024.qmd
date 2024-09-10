@@ -1,0 +1,14 @@
+---
+title: "Project on the mating and dispersal behaviour of the Northern Lapwing off to a good start" 
+author: Bart Kempenaers
+date: "2024-Jul-01"
+categories: [project]
+lightbox: true
+image: "BasharLapwing.webp"
+---
+
+In close collaboration with Dr. Heinrich Belting and his team from the Lower Saxony Water Management, Coastal Defence and Nature Conservation Agency, our group studied a breeding population of Northern lapwings (*Vanellus vanellus*) in a moorland north of Lake Dümmer between April and June 2024. We found 212 nests, collected samples for parentage and microbiome analyses, and equipped 64 females and 30 males with GPS tags.   
+
+Thumbnail photo by Bashar Jarayseh.
+
+![Photo by Bart Kempenaers](EunbiKimDuemmer.webp){width=50%}
