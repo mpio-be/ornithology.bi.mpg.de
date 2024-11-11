@@ -1,0 +1,17 @@
+---
+title: "Variance partitioning of nest provisioning rates in blue tits: individual repeatability, heritability, and partner interactions" 
+author: Santema, Forstmeier & Kempenaers
+date: "2024-Nov-01" # date of publication
+categories: [new publication]
+image: "PeterSantemaBTProvisioning2024.webp"
+lightbox: true
+fig-cap-location: margin
+bibliography: ./../../biblio/publications.bib
+csl: ./../../biblio/bib_style.csl
+---
+
+Birds show remarkable individual variation in the frequency at which they feed their offspring. Several factors may contribute to this variation, including genetic, social and environmental variables, but their relative importance remains unclear. Over a period of 10 years, we recorded nest visits at 817 blue tit nests (totaling almost 3 million visits). We used these data for a comprehensive analysis of factors contributing to variation in daily provisioning rates. We show that provisioning rates of both males and females were moderately repeatable between years (R = 0.16 and 0.15, respectively), and that this consistency was almost entirely explained by additive genetic effects. Daily visit rates correlated positively between pair members. However, after accounting for shared environmental factors the correlation became clearly negative, providing support for models of partial compensation. Visit rates also differed substantially between years, and between days within a year, highlighting the importance of accounting for these variables when comparing parental investment between individuals. Our study, which was selected as the Editor’s Choice for the November issue of Evolution, shows that parental investment can respond to selection (modest degree of heritability). On the other hand, the modest level of repeatability suggests that there is limited potential for individuals to use a “provisioning phenotype” as a criterion for mate choice, as has been suggested under the “good parent” process of sexual selection. 
+
+[@santema2024variance]
+
+![Photo by Julius Kramer](PeterSantemaBTProvisioning2024.webp){width=40%}
