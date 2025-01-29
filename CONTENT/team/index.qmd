@@ -14,7 +14,9 @@ fig-cap-location: bottom
 <hr>
 
 
-::: {layout-ncol=4}
+::: {layout-ncol=3}
+![Banded dotterel field work 2024, New Zealand](NewZealand_Team_2024.webp){group="group-kemps"}
+
 ![Summer 2023](Diesen_Kempenaers_Group_2023.webp){group="group-kemps"}
 
 ![Arctic field work 2023, Utqiaġvik, Alaska](Barrow_Team_2023.webp){group="group-kemps"}
