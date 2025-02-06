@@ -1,5 +1,5 @@
 ---
-title: "Sperm swimming speed and morphology differ little among the three genetic morphs of the ruff sandpiper" 
+title: "Sperm swimming speed and morphology differ little among the three genetic morphs of the ruff sandpiper *Calidris pugnax*" 
 author: Bulla et al.
 date: "2024-Dec-02" # date of publication
 categories: [new publication]
@@ -12,6 +12,6 @@ csl: ./../../biblio/bib_style.csl
 
 In the ruff sandpiper, a lekking shorebird, males come in three genetically determined morphs. Independent males (80-90% of all males) are larger and darker in plumage ornament colour than males of the other two morphs, and aggressively defend small territories to display to potential mates. Satellite males (10-20%) are intermediate in size and have lighter-coloured ornaments compared to Independents; they are less aggressive, but court females typically in tandem with an Independent. Faeder males (~1% of males) resemble females in size and appearance, and presumably sneak copulations with females that visit displaying males. Such differing mating tactics may be associated with varying levels of sperm competition and hence with variation in sperm traits. Specifically, Satellite or Faeder males may counteract the effect of their reduced access to females by producing more competitive sperm, that is, sperm that swim faster or (have components that) are longer than those of Independent males. We sampled sperm from males of each morph in a captive breeding population and found only small differences between morphs in sperm traits. Opposite to the prediction, Faeder sperm was slower than that of both Independents and Satellites. In conclusion, we found no evidence for a distinct sperm polymorphism among the morphs. We argue that there may be little scope for the evolution of morph-specific sperm adaptations. 
 
-[@santema2024variance]
+[@bulla2024sperm]
 
 ![Photo by Kim Teltscher](BullaRuffSperm2024.webp){width=40%}
