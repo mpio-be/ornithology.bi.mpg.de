@@ -2,7 +2,7 @@
 title: "Banded Dotterel behavioural ecology"
 author: Luke Eberhart-Hertel
 date: "2024-10-01" # date when the project started or will start
-categories: [in preparation]
+categories: [ongoing]
 image: "about.webp"
 lightbox: true
 fig-cap-location: margin
