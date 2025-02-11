@@ -1,0 +1,17 @@
+---
+title: "Measurement error in remotely sensed fractional snow cover datasets: implications for ecological research" 
+author: Jacques-Hamilton et al.
+date: "2025-Jan-31" # date of publication
+categories: [new publication]
+image: "RowanSnowMelt2025.webp"
+lightbox: true
+fig-cap-location: margin
+bibliography: ./../../biblio/publications.bib
+csl: ./../../biblio/bib_style.csl
+---
+
+Variation in snow cover is an important factor to consider when undertaking research in Arctic habitats, because it can have far-reaching implications for plant and animal ecology. Remote sensing and satellite imagery are effective and powerful tools to estimate spatio-temporal variation in snow cover. However, these methods are also prone to measurement error, which can induce bias and thus affect the results and conclusions of ecological studies. At an Arctic tundra study site near Utqiagvik, Alaska, we compared estimates of snow cover and timing of snow melt based on satellite imagery from four separate sources with “ground-truth” images of the habitat taken via drone surveys within the same period. We then applied the information from each dataset on snow melt patterns to the phenology of the pectoral sandpiper (*Calidris melanotos*), a migratory shorebird that breeds in the area. We found that satellite datasets generally tended to overestimate snow cover and hence suggest later snow melt dates. As a result, conclusions about how snow melt patterns influence settlement and nest initiation in pectoral sandpipers differed between remote-sensed and locally recorded estimates. We discuss the limitations associated with satellite-derived estimates of snow melt patterns and highlight the need for on-the-ground validation. 
+
+[@Jacques-Hamilton_2025]
+
+![The study site during the period of snow melt (Drone photo by Rowan Jacques-Hamilton)](RowanSnowMelt2025.webp){width=40%}
