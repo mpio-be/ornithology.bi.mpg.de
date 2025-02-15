@@ -30,10 +30,12 @@ This project uses the following software:
  * search and use Google Scholar to export to bib.
  * add new publications on top. 
  * when the entry is an editorial add `group  = {editorial}` to the bib entry.
+ * always write `year` as `year = {YYYY}`
  * always add a space after title, author, etc. 
  * if the pdf is made available :
     - add the pdf file to `/CONTENT/biblio/pdfs`
     - add `pdf = {fileName.pdf}`. For `fileName` see _Naming conventions_.
+ * check any entry with e.g. [bibtex-tidy](https://flamingtempura.github.io/bibtex-tidy/)
 
 #### Adding a __news__ item in `/CONTENT/news/YYYY/`
   * Create a new `.*qmd` file using a previous file as template. 
@@ -46,3 +48,30 @@ This project uses the following software:
     -  `*.webp` files in `news`.
     -  `*.pdf` files in `biblio/pdfs`.
   
+
+#### Installing the site locally
+
+  __R packages__
+
+  ```r
+  c('data.table',
+  'glue',
+  'bib2df',
+  'bibtex',
+  'wordcloud',
+  'tm',
+  'stringr',
+  'downlit', 
+  'xml2'
+  'pluralize' # remotes::install_github("hrbrmstr/pluralize")
+  ),
+  ```
+
+  __quarto extensions__
+
+  quarto update extension --all
+
+  quarto install extension quarto-journals/elsevier
+  quarto install extension schochastics/academicons
+  quarto install extension jmgirard/embedpdf
+  quarto install extension shafayetShafee/bsicons
