@@ -69,9 +69,11 @@ This project uses the following software:
 
   __quarto extensions__
 
+```sh
   quarto update extension --all
 
-  quarto install extension quarto-journals/elsevier
-  quarto install extension schochastics/academicons
-  quarto install extension jmgirard/embedpdf
-  quarto install extension shafayetShafee/bsicons
+  quarto install extension quarto-journals/elsevier  
+  quarto install extension schochastics/academicons   
+  quarto install extension jmgirard/embedpdf   
+  quarto install extension shafayetShafee/bsicons   
+```
