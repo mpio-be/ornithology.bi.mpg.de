@@ -22,9 +22,25 @@ lightbox: false
 <!-- content: globe, dude, text -->
 ```{=HTML} 
 
+<div class="container-fluid mpcbc-container">
+  <div class="d-flex align-items-center ">
+    <img src="./logo/MPCBC.svg"  class="navbar-logo">
+      <a href="https://www.mpg.de/21966021/max-planck-university-of-cape-town-centre-for-behaviour-and-coevolution" 
+      class="navbar-title text-decoration-none"
+      target="_blank">
+      MPUCT Centre for Behaviour and Coevolution
+    </a>
+  </div>
+</div>
+
+
+
 <div class="container" >
 
-<div id="intro_start" class="intro w-75"> </div>
+
+<div id="intro_start" class="intro w-75"> </div>  
+
+
 
 <div class="d-flex align-items-end" >
 
@@ -42,6 +58,8 @@ Visit <strong> /Projects/ </strong>  for more.
 <div id= "Earth" class="flex-shrink-0" > </div>
 
 </div>
+
+
 
 
 </div>

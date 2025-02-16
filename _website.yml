@@ -1,9 +1,8 @@
 website:
   title: Department of Ornithology
-  site-url: http://ornithology.bi.mpg.de/
-  favicon: /CONTENT/main/ico.png
+  site-url: http://ornithology.bi.mpg.de
+  favicon: /logo/ico.png
   back-to-top-navigation: true
-
 
   page-footer:
     center: 
@@ -15,7 +14,7 @@ website:
 
   navbar:
     pinned: true
-    logo: /CONTENT/main/ico.png
+    logo: /logo/logo.svg
     right:
       - text: "{{< fa house-user >}} Home"
         href: index.qmd
