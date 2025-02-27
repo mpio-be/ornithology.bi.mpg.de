@@ -1,0 +1,19 @@
+---
+title: "Unpalatable birds are black: a re-analysis of Hugh Cott’s data on bird palatability" 
+author: Delhey et al.
+date: "2025-Feb-17" # date of publication
+categories: [new publication]
+image: "KasparBirdPalatability2025.webp"
+lightbox: true
+fig-cap-location: margin
+bibliography: ./../../biblio/publications.bib
+csl: ./../../biblio/bib_style.csl
+---
+
+Bird colours fulfil a variety of functions. Could they also advertise bad taste? Advertising unprofitability to predators (aposematism) through colours, sounds or smell is not rare in animals – think poison frogs, wasps, and coral snakes – but whether it is widespread in birds is less clear. We put this idea to the test using quantitative estimates of bird coloration in combination with historical data collected by Hugh Cott and Constantine Benson. During and after the Second World War, Hugh Cott, a Cambridge-based zoologist, ran a series of ingenious experiments testing the palatability of bird flesh using hornets as tasters. Every time he collected a bird for his research he also quantified the number of hornets that came to eat the discarded carcass, which allowed him to rank species based on palatability to hornets. Later, he teamed up with Constantine Benson to analyse palatability of bird flesh to humans in a set of blind tests.
+
+Our analyses of Cott and Benson’s data reveal that the main correlate of palatability is the proportion of black plumage. Put simply, species with lots of black taste worse. Black is a common colour in other aposematic species, often in combination with other bright colours. Different species converging towards a common colour scheme to advertise unpalatability is favoured because the cost of educating predators is shared, a phenomenon called Müllerian mimicry. We hypothesise that black may also be a suitable aposematic colour because the underlying melanin pigments are linked to detoxification in animals. Our study suggests that aposematism in birds may be widespread and we call for new research to quantify bird palatability as determined by other more relevant predators of birds, such as birds of prey or carnivorous mammals. 
+
+[@delhey2025unpalatable]
+
+![Bird species with lots of black plumage, such as the Black Redstart (*Phoenicurus ochruros*) have lower palatability as assessed by hornets and humans (Photo: Kaspar Delhey)](KasparBirdPalatability2025.webp){width=40%}
