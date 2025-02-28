@@ -40,6 +40,15 @@ body {
   justify-content: center  !important;
 }
 
+.navbar-logo {
+  transition: transform 0.3s ease-in-out;
+}
+
+.navbar-logo:hover {
+  transform: scale(1.2); 
+}
+
+
 
 .mpcbc-container {
   position: relative;  
