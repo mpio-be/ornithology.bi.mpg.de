@@ -1,0 +1,17 @@
+---
+title: "Factors associated with breeding site fidelity in a nomadic shorebird with extremely low local return rates" 
+author: Santema et al.
+date: "2025-March-23" # date of publication
+categories: [new publication]
+image: "SantemaSiteFidelity2025.webp"
+lightbox: true
+fig-cap-location: margin
+bibliography: ./../../biblio/publications.bib
+csl: ./../../biblio/bib_style.csl
+---
+
+Birds that breed in multiple years can either return to the same breeding site or disperse to a different location. The tendency of individuals to return to the previous breeding site differs substantially between species. In socially monogamous birds with biparental care, most species show high breeding site fidelity, possibly because it allows individuals to remate with their previous partner. In contrast, in polygynous species with female-only care, individuals do not form pair-bonds, and local return rates are typically low. However, even in these species, a small proportion of individuals returns to the same breeding site in consecutive years, but the factors associated with site fidelity in such species are rarely investigated. We examined breeding site fidelity in the pectoral sandpiper, an Arctic-breeding polygynous shorebird with female-only care. Satellite tagging revealed that most pectoral sandpipers are nomadic during the breeding season and do not return to anywhere near their former breeding site: the median dispersal distance between years was >800 km for both males and females. However, 2.4% of 524 colour-banded males and 0.5% of 366 marked females did return to the study site between years. Males with higher siring success and that had stayed in the study area for longer were more likely to return. In the year they returned, those males also had higher siring success than males that had not been in the study area previously. Our study suggests that only highly successful males may benefit from returning to the same site.
+
+[@SANTEMA2025123151]
+
+![Colour-banded male pectoral sandpiper on his territory near Utqiagvik (Barrow), Alaska (Photo: Bart Kempenaers)](SantemaSiteFidelity2025.webp){width=40%}
