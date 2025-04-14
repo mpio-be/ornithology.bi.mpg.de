@@ -8,6 +8,6 @@ lightbox: true
 fig-cap-location: margin
 ---
 
-Our work on the banded dotterels brought us to the Chatham Islands: [here](https://www.chathamrestorationtrust.org.nz/resources/blog-and-news/banding-dotterels-science/) is the story.
+Our work on the banded dotterels brought us to the Chatham Islands: [here](https://www.chathamrestorationtrust.org.nz/resources/blog-and-news/banding-dotterels-science/) is Part 1 of the story.
 
 ![Banded dotterel on its nest in New Zealand (Photo: Luke Eberhart-Hertel)](Luke_Bdot.webp){width=40%}
