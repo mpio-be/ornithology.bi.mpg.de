@@ -1,0 +1,18 @@
+---
+title: "Colourful urban birds: bird species successful in urban environments have more elaborate colours and less brown" 
+author: Ibáñez-Álamo et al.
+date: "2025-Apr-04" # date of publication
+categories: [new publication]
+image: "KasparColourfulUrbanBirds2025.webp"
+lightbox: true
+fig-cap-location: margin
+bibliography: ./../../biblio/publications.bib
+csl: ./../../biblio/bib_style.csl
+---
+
+Urbanisation (the process of city formation and growth) has profound consequences for wildlife, because only species that have certain characteristics are able to adapt to city life. For example, in birds, successful urban species tend to nest off the ground and in cavities, have an omnivorous diet, and prefer open habitats with sparse vegetation. Existing studies also suggest that birds in cities are less colourful and more likely to be black and grey, and that bird communities in cities have lower colour diversity than those in natural environments. We used a dataset on the abundance along urbanisation gradients of >1200 bird species to test the relationship with plumage colour on a global scale. We found that species that are successful in urban environments have more elaborate colours, and fewer dull colours. The relative paucity of brown birds in cities is likely due to the lack of vegetation in which dull colours provide optimal camouflage. As predicted, we found that city bird communities had lower colour diversity than nearby communities in natural environments. However, cities also have fewer bird species, and after controlling for species richness, urban bird communities actually tend to be more colour-diverse. Our study reveals that city life may filter out birds with certain colours, but – contrary to expectations – these birds tend to be dull rather than colourful.
+
+
+[@ibanez2025colourful]
+
+![An Australian blue-faced honeyeater (*Entomyza cyanotis*) taking advantage of human leftovers. Bird species that are successful in urban settings are often quite colourful. Photo: Kaspar Delhey.](KasparColourfulUrbanBirds2025.webp){width=40%}
