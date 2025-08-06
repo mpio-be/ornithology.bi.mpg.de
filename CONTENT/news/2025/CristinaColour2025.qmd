@@ -1,0 +1,20 @@
+---
+title: "Mechanisms of colour-production modulate the link between extra-pair paternity and avian sexual dichromatism" 
+author: Valcu et al.
+date: "2025-June-28" # date of publication
+categories: [new publication]
+image: "CristinaColour2025.webp"
+lightbox: true
+fig-cap-location: margin
+bibliography: ./../../biblio/publications.bib
+csl: ./../../biblio/bib_style.csl
+---
+
+In many bird species, males and females form pairs to raise young together. However, extra-pair paternity (EPP), where some offspring in a nest have been sired by a male other than the social partner, is common. EPP can increase competition between males and drive the evolution of conspicuous male traits such as colourful plumage. As a result, male birds are usually more colourful than females, a phenomenon known as sexual dichromatism. Previous research suggested that the relationship between sexual dichromatism and EPP was mainly due to variation in structural colours (that is, shimmering blues and greens created by the interaction of light with the microscopic structure of the feathers), which are often used by males during flashy courtship displays. That conclusion, however, was reached through an investigation including a small number of bird species.
+
+In our study, we took a broader look at this relationship, analysing over 400 bird species. We examined how EPP relates to three different types of colours: those based on melanin (usually blacks and browns), those that depend on carotenoids (yellows, oranges, and reds), and those that involve structural colours. Unlike the previous study, we found that EPP is connected to all three colour types. In species where EPP is common, males tend to have darker, more striking colours, including black, and less light brown. Females in these species are often duller, with more camouflaged colours, and with less red and blue. Species with high EPP levels also tend to use more than one type of colour mechanism in their plumage. Altogether, our findings suggest that high levels of extra-pair paternity lead to the evolution of more visibly ostentatious males and more camouflaged females, amplifying the colour differences between the sexes.
+
+
+[@valcu2025mechanisms]
+
+![A pair of superb fairywrens (*Malurus cyaneus*), an example of a species with strong sexual dichromatism (Photo: Kaspar Delhey)](CristinaColour2025.webp){width=40%}
