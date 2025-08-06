@@ -1,0 +1,17 @@
+---
+title: "Strong wintering site fidelity contrasts with exploratory breeding site sampling in a socially monogamous shorebird" 
+author: Kwon et al.
+date: "2025-July-11" # date of publication
+categories: [new publication]
+image: "EunbiDowitcher2025.webp"
+lightbox: true
+fig-cap-location: margin
+bibliography: ./../../biblio/publications.bib
+csl: ./../../biblio/bib_style.csl
+---
+
+In migratory birds, especially those that breed monogamously, individuals tend to return to the same breeding site each year. Returning individuals may gain survival benefits from accumulated site knowledge as well as potential fitness advantages by reuniting with their former partner. In a previous study, we showed that long-billed dowitchers are an unusual case among socially monogamous shorebirds, because they show neither breeding site fidelity nor mate fidelity. In this new study, we show that while dowitchers display exceptional flexibility in choosing breeding sites across the Arctic tundra, they are remarkably faithful to their wintering areas. Repeated migration tracks from 19 satellite-tagged dowitchers between 2019 and 2023 revealed that although the birds were relatively flexible in the timing of their migratory movements, individual repeatability in the migratory route increased as they approached their wintering range. Most studies tracking birds across years suggest that individuals are either consistently faithful or consistently flexible in their choice of residency sites and migratory routes throughout the annual cycle, implying that site fidelity is a fixed individual trait. However, our findings demonstrate that the degree of site fidelity in dowitchers varies across different stages of the annual cycle. This suggests that migratory strategies may be shaped by stage-specific constraints or drivers.  
+
+[@kwon2025strong]
+
+![Long-billed dowitcher equipped with a satellite transmitter near Utqiagvik (Barrow), Alaska (Photo: Mark Wilson)](EunbiDowitcher2025.webp){width=40%}
