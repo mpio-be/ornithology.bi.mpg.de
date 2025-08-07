@@ -1,0 +1,16 @@
+---
+title: "An August start for August" 
+author: Carol Gilsenan
+date: "2025-August-01" # date of publication
+categories: [new group member]
+image: "AugustWelcome2025.webp"
+lightbox: true
+fig-cap-location: margin
+bibliography: ./../../biblio/publications.bib
+csl: ./../../biblio/bib_style.csl
+---
+
+This month sees the start of a new PhD student in our department, August Davidson-Onsgard. August graduated from Cornell University in 2024 with a Bachelor’s degree in Biological Sciences, Ecology and Evolutionary Biology, and has a background in bird behavioural ecology, with a special interest in colouration and ornamentation. He is also a keen birder and bird photographer. August’s PhD project will be on colour traits in the banded dotterel (also known as Pohowera, or double-banded plover) as part of our ongoing research on the species in New Zealand. Welcome aboard, August! We are delighted to have you on the team, and look forward to sharing this journey with you.
+
+
+![Long-billed dowitcher equipped with a satellite transmitter near Utqiagvik (Barrow), Alaska (Photo: Mark Wilson)](EunbiDowitcher2025.webp){width=40%}
