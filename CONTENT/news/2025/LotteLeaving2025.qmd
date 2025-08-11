@@ -1,0 +1,16 @@
+---
+title: "Lotte is Leaving" 
+author: Carol Gilsenan
+date: "2025-July-31" # date of publication
+categories: [alumni]
+image: "LotteLeaving2025.webp"
+lightbox: true
+fig-cap-location: margin
+---
+
+After almost two decades working in our group in Seewiesen, we are sad to say goodbye to Lotte Schlicht. Lotte came to us as a biology student from the LMU in Munich, first finishing her “Diplom” thesis on fledging behaviour of blue tits, and then continuing her PhD studies on extra-pair behaviour in the same species. For personal reasons, Lotte decided to stay in the Munich area, and she continued to work with us as a postdoc on a variety of projects.
+
+Throughout her time in the group, Lotte not only made significant contributions to the blue tit project as a core member of the research team, but also developed original ideas, for example about the origin of the dawn chorus. For many years, Lotte was also an enthusiastic member of the field team, and she was a valued friend and colleague in the department. We will all miss her, but wish her every success and happiness in her next chapter.
+
+
+![Photo: Emmi Schlicht](LotteLeaving2025.webp){width=40%}
