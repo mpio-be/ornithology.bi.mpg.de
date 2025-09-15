@@ -62,9 +62,11 @@ This project uses the following software:
   'tm',
   'stringr',
   'downlit', 
-  'xml2'
+  'xml2',
   'pluralize' # remotes::install_github("hrbrmstr/pluralize")
-  ),
+  ) |>
+  sapply(require, character.only = TRUE, quietly = TRUE)
+
   ```
 
   __quarto extensions__
@@ -72,8 +74,10 @@ This project uses the following software:
 ```sh
   quarto update extension --all
 
-  quarto install extension quarto-journals/elsevier  
+  quarto install quarto-ext/fontawesome  
   quarto install extension schochastics/academicons   
-  quarto install extension jmgirard/embedpdf   
   quarto install extension shafayetShafee/bsicons   
+  quarto install extension jmgirard/embedpdf   
+  quarto install extension quarto-journals/elsevier
+  
 ```
