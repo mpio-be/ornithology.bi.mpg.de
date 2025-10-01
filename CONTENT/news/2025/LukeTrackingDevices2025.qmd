@@ -1,0 +1,17 @@
+---
+title: "Evaluating the effects of tracking devices on survival, breeding success, behavior, and condition of a small, partially migratory shorebird" 
+author: Eberhart-Hertel et al.
+date: "2025-July-21" # date of publication
+categories: [new publication]
+image: "LukeTrackingDevices2025.webp"
+lightbox: true
+fig-cap-location: margin
+bibliography: ./../../biblio/publications.bib
+csl: ./../../biblio/bib_style.csl
+---
+
+The availability of tracking devices has revolutionized the study of animal migration and movements. Technological advances have resulted in tags that can be deployed on bird species of ever decreasing size, and that are capable of recording and storing increasing amounts of data. However, the effects of these devices on the behaviour, welfare, and survival of the birds are rarely studied. We fitted one of two types of tracking device (ten each of 1.2-g archival GPS loggers and 1.8- to 2-g Argos satellite transmitters) on banded dotterels breeding at a coastal site on New Zealand’s South Island. We then examined how these twenty individuals fared in the year following tag deployment in comparison to 74 control banded dotterels (those without a tag). The good news you can read here.
+
+[@eberhart2025evaluating]
+
+![Ruffs on a lek in northern Norway (Photo: Raf Vervoort)](BartRuffSiteSampling2025.webp){width=40%}
