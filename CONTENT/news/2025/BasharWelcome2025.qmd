@@ -1,0 +1,14 @@
+---
+title: "Bashar’s PhD Studies Take Flight" 
+author: Carol Gilsenan
+date: "2025-November-01" # date of publication
+categories: [new group member]
+image: "BasharWelcome2025.webp"
+lightbox: true
+fig-cap-location: margin
+---
+
+November brings the start of another PhD student in our department, Bashar Jarayseh. Bashar is a recent graduate of the Ludwig Maximilian University of Munich, where he successfully completed his Master’s degree in Evolution, Ecology, and Systematics. Bashar is also an enthusiastic and accomplished ornithologist, and no stranger to our group. He has already completed two projects on New Zealand banded dotterels (one on moult, one on migration) with us, and also spent time with our team at Lake Dümmer during the last two breeding seasons to help out with fieldwork on Northern lapwings. Bashar’s PhD work will be about the patterns, processes and dynamics of shorebird migration. Welcome to the flock, Bashar!
+
+
+![Photo: Bashar Jarayseh](BasharWelcome2025.webp){width=40%}
