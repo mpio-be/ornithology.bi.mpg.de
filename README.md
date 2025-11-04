@@ -72,12 +72,12 @@ This project uses the following software:
   __quarto extensions__
 
 ```sh
-  quarto update extension --all
+  quarto update extensions
 
-  quarto install quarto-ext/fontawesome  
-  quarto install extension schochastics/academicons   
-  quarto install extension shafayetShafee/bsicons   
-  quarto install extension jmgirard/embedpdf   
-  quarto install extension quarto-journals/elsevier
+  quarto install extension quarto-ext/fontawesome   --no-prompt
+  quarto install extension schochastics/academicons --no-prompt  
+  quarto install extension shafayetShafee/bsicons   --no-prompt
+  quarto install extension jmgirard/embedpdf        --no-prompt
+  quarto install extension quarto-journals/elsevier --no-prompt
   
 ```
