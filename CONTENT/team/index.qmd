@@ -15,6 +15,9 @@ fig-cap-location: bottom
 
 
 ::: {layout-ncol=3}
+
+![Banded dotterel field work 2025, New Zealand](NewZeeland_Team_2025.webp){group="group-kemps"}
+
 ![Banded dotterel field work 2024, New Zealand](NewZealand_Team_2024.webp){group="group-kemps"}
 
 ![Summer 2023](Diesen_Kempenaers_Group_2023.webp){group="group-kemps"}
